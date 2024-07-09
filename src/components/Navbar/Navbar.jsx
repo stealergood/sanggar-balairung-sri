@@ -6,13 +6,13 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="w-full flex flex-col md:flex-row bg-white shadow-[0_3px_0_0] shadow-black">
-      <div className="flex justify-between items-center md:px-20 py-3 px-3">
+    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white shadow-md">
+      <div className="flex justify-between items-center lg:px-10 py-3 px-3">
         <div className="flex items-center">
           <img className="w-12 md:w-20" src={Logo} alt="Logo" />
           <div className="flex flex-col md:items-center ml-2">
-            <h1 className="font-blenda text-primary text-normal md:text-2xl">Balairung Sri</h1>
-            <p className="text-primary text-xs md:font-bold">Sanggar Tari dan Musik</p>
+            <h1 className="font-blenda text-primary text-base md:text-2xl md:ml-2">Balairung Sri</h1>
+            <p className="text-primary text-xs md:font-bold md:ml-2">Sanggar Tari dan Musik</p>
           </div>
         </div>
         <button 
@@ -22,7 +22,7 @@ export const Navbar = () => {
           {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </button>
       </div>
-      <div className={`md:flex-grow md:flex md:items-center md:justify-start ${menuOpen ? 'flex' : 'hidden'} md:flex`}>
+      <div className={`md:flex-grow md:flex md:items-center md:justify-around ${menuOpen ? 'flex' : 'hidden'} md:flex`}>
         <ul className="menu menu-vertical md:menu-horizontal text-primary text-base font-bold w-full md:w-auto">
           <li className="dropdown dropdown-hover">
             <details>
@@ -82,7 +82,7 @@ export const Navbar = () => {
           <li className="dropdown dropdown-hover">
             <details>
               <summary tabIndex={0}>Informasi</summary>
-              <ul className={`dropdown-content menu p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
+              <ul className={`dropdown-content menu p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-40`}>
                 <li><a href="#">Kontak</a></li>
                 <li><a href="#">Alamat</a></li>
                 <li><a href="#">Testimoni</a></li>
