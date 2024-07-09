@@ -1,13 +1,10 @@
-import { Navbar } from "./components/Navbar/Navbar"
-import { Footer } from "./components/Footer/Footer"
+import { Beranda } from "./page/Beranda/Beranda"
 
 function App() {
 
   return (
     <>
-      <Navbar/>
-      <div>asan</div>
-      <Footer/>
+      <Beranda />
     </>
   )
 }
