@@ -15,6 +15,10 @@ module.exports = withMT({
       colors: {
         primary: "#491D21"
       },
+      backgroundImage: {
+        "motif": "url('/src/assets/images/bg.png')",
+        "motif2": "url('/src/assets/images/bg2.png')",
+      }
     },
   },
   plugins: [

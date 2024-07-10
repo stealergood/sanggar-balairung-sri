@@ -27,7 +27,7 @@ export const Navbar = () => {
           <li className="dropdown dropdown-hover">
             <details>
               <summary tabIndex={0}>Beranda</summary>
-              <ul className={`dropdown-content menu p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
+              <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
                 <li><a href="#">Biodata Balairung Sri</a></li>
               </ul>
             </details>
@@ -35,7 +35,7 @@ export const Navbar = () => {
           <li className="dropdown">
             <details>
               <summary tabIndex={0}>Belajar</summary>
-              <ul className={`dropdown-content menu p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
+              <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
                 <li><a href="#">Sejarah</a></li>
                 <li><a href="#">Pakaian</a></li>
                 <li><a href="#">Alat Musik</a></li>
@@ -48,7 +48,7 @@ export const Navbar = () => {
           <li className="dropdown dropdown-hover">
             <details>
               <summary tabIndex={0}>Fasilitas</summary>
-              <ul className={`dropdown-content menu p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
+              <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
                 <li><a href="#">Fasilitas Sanggar</a></li>
               </ul>
             </details>
@@ -56,7 +56,7 @@ export const Navbar = () => {
           <li className="dropdown dropdown-hover">
             <details>
               <summary tabIndex={0}>Aktifitas</summary>
-              <ul className={`dropdown-content menu p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
+              <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
                 <li><a href="#">Kegiatan</a></li>
                 <li><a href="#">Latihan Rutin</a></li>
               </ul>
@@ -65,7 +65,7 @@ export const Navbar = () => {
           <li className="dropdown dropdown-hover">
             <details>
               <summary tabIndex={0}>Penghargaan</summary>
-              <ul className={`dropdown-content menu p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
+              <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
                 <li><a href="#">Penghargaan</a></li>
               </ul>
             </details>
@@ -73,7 +73,7 @@ export const Navbar = () => {
           <li className="dropdown dropdown-hover">
             <details>
               <summary tabIndex={0}>Galeri</summary>
-              <ul className={`dropdown-content menu p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
+              <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
                 <li><a href="#">Foto</a></li>
                 <li><a href="#">Video</a></li>
               </ul>
@@ -82,7 +82,7 @@ export const Navbar = () => {
           <li className="dropdown dropdown-hover">
             <details>
               <summary tabIndex={0}>Informasi</summary>
-              <ul className={`dropdown-content menu p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-40`}>
+              <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-40`}>
                 <li><a href="#">Kontak</a></li>
                 <li><a href="#">Alamat</a></li>
                 <li><a href="#">Testimoni</a></li>
