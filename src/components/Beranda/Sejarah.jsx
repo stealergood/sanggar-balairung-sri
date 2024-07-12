@@ -28,7 +28,7 @@ export const Sejarah = () => {
           <img src={SejarahPict} alt="foto sejarah" className="rounded-xl" />
         </div>
         <Gambus className="top-3 md:top-12  w-28 md:w-48 lg:w-fit rotate-12 md:rotate-0 right-0 md:right-0 absolute lg:top-10" />
-        <Marwas className="bg-white top-28 md:top-36 w-14 md:w-32 lg:w-fit right-24 md:right-36 absolute lg:right-52 lg:top-32" />
+        <Marwas className="top-28 md:top-36 w-14 md:w-32 lg:w-fit right-24 md:right-36 absolute lg:right-52 lg:top-32" />
         <Gambus className="lg:hidden w-28 md:w-48 rotate-45 top-3 md:top-12 left-0 absolute lg:top-10" />
         <Marwas className="lg:hidden w-14 md:w-32 top-28 md:top-36 left-24 md:left-36 absolute lg:right-52 lg:top-32" />
       </div>

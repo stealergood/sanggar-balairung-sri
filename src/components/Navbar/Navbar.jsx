@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white shadow-md">
+    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white ">
       <div className="flex justify-between items-center lg:px-10 py-3 px-3">
         <div className="flex items-center">
           <img className="w-12 md:w-20" src={Logo} alt="Logo" />
@@ -36,11 +36,11 @@ export const Navbar = () => {
             <details>
               <summary tabIndex={0}>Belajar</summary>
               <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
-                <li><a href="#">Sejarah</a></li>
-                <li><a href="#">Pakaian</a></li>
-                <li><a href="#">Alat Musik</a></li>
-                <li><a href="#">Lirik Lagu</a></li>
-                <li><a href="#">Gerakan</a></li>
+                <li><a href="/belajar/sejarah">Sejarah</a></li>
+                <li><a href="/belajar/pakaian">Pakaian</a></li>
+                <li><a href="/belajar/alat-musik">Alat Musik</a></li>
+                <li><a href="/belajar/lirik-lagu">Lirik Lagu</a></li>
+                <li><a href="/belajar/gerakan">Gerakan</a></li>
                 <li><a href="#">Tarian</a></li>
               </ul>
             </details>

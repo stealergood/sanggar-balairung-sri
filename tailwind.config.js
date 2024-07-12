@@ -18,6 +18,12 @@ module.exports = withMT({
       backgroundImage: {
         "motif": "url('/src/assets/images/bg.png')",
         "motif2": "url('/src/assets/images/bg2.png')",
+        "motif3": "url('/src/assets/images/bg3.png')"
+      },
+      fontFamily: {
+        "mon-medium": "Montserrat-Medium",
+        "mon-bold": "Montserrat-Bold",
+        "mon-semiBold": "Montserrat-SemiBold",
       }
     },
   },
