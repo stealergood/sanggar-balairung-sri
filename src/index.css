@@ -26,6 +26,10 @@
   }
 }
 
+.list-dash {
+  list-style-type: '- ';
+}
+
 /* :root {
   font-family: blenda-script;
 } */

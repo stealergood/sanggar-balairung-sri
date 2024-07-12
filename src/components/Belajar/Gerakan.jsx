@@ -1,11 +1,20 @@
+import Kaki1 from "../../assets/images/gerakan/kaki1.png";
+import Kaki2 from "../../assets/images/gerakan/kaki2.png";
+import Kaki3 from "../../assets/images/gerakan/kaki3.png";
+import Kaki4 from "../../assets/images/gerakan/kaki4.png";
+import Kaki5 from "../../assets/images/gerakan/kaki5.png";
+import Kaki6 from "../../assets/images/gerakan/kaki6.png";
+import Kaki7 from "../../assets/images/gerakan/kaki7.png";
+import Kaki8 from "../../assets/images/gerakan/kaki8.png";
+import Kaki9 from "../../assets/images/gerakan/kaki9.png";
 
 export const Gerakan = () => {
   return (
     <div className="w-full h-[52rem] bg-motif2 bg-cover bg-center overflow-y-scroll">
-      <div className="w-full flex justify-center text-primary font-blenda text-6xl p-10">
+      <div className="w-full flex justify-center text-primary font-blenda text-3xl md:text-6xl py-10 md:p-10">
         <h1>Gerakan Tari Zapin</h1>
       </div>
-      <div className="w-full px-10 text-black">
+      <div className="w-full px-6 text-sm md:px-10 text-black pb-10 text-justify">
         <p>
           Dalam menampilkan tari zapin , penari harus mengerti tentang tata cara
           mengawali tari tersebut. Pada mulanya, tari zapin ditarikan oleh dua
@@ -51,7 +60,7 @@ export const Gerakan = () => {
           penari memberi hormat lalu duduk dengan posisi sebagai berikut selama
           gambus dimainkan :
         </p>
-        <ul className="list-disc mt-3 px-5">
+        <ul className="list-dash my-3 px-2">
           <li>Duduk pada tumit kaki kiri</li>
           <li>Sementara kaki kanan bertegak lutut</li>
           <li>Tangan kiri dilipatkan hingga ujung lutut</li>
@@ -63,24 +72,177 @@ export const Gerakan = () => {
           memiliki berbagai macam bunga atau ragam gerak diantaranya yang
           terkenal adalah:
         </p>
-        <ul className="list-decimal mt-3 px-5">
-          <li>Langkah 1 - 8 : disebut langkah biasa/langkah dasar. Langkah dasar memiliki makna hasil yang besar selalu dimulai dari awal yang kecil</li>
-          <li>Ragam alif : untuk permulaan tari. Ragam alif memiliki makna mengaji dalam islam dimulai dengan awal huruf alif.</li>
-          <li>Ragam alif sembah, memiliki makna segala sesuatu yang dimulai dari awal yang baik, hendaklah di iringi dengan restu dari yang maha kuasa.</li>
-          <li>Ragam titi batang, memberi makna bahwa keteguhan hati dan keterampilan dalam menghadapi cobaan</li>
+        <ul className="list-decimal mt-3 px-5 mb-10">
+          <li>
+            Langkah 1 - 8 : disebut langkah biasa/langkah dasar. Langkah dasar
+            memiliki makna hasil yang besar selalu dimulai dari awal yang kecil
+          </li>
+          <li>
+            Ragam alif : untuk permulaan tari. Ragam alif memiliki makna mengaji
+            dalam islam dimulai dengan awal huruf alif.
+          </li>
+          <li>
+            Ragam alif sembah, memiliki makna segala sesuatu yang dimulai dari
+            awal yang baik, hendaklah di iringi dengan restu dari yang maha
+            kuasa.
+          </li>
+          <li>
+            Ragam titi batang, memberi makna bahwa keteguhan hati dan
+            keterampilan dalam menghadapi cobaan
+          </li>
           <li>Ragam pusing tengah, adalah kepedulian terhadap lingkungannya</li>
           <li>Ragam sut, bermakna sikap adil dan sabar</li>
           <li>Ragam sut depan, bermakna mendahulukan sikap adil dan sabar</li>
-          <li>Ragam sut maju mundur, memberi makna bahwa mendahulukan sikap adil dan sabardengan keseimbangan</li>
+          <li>
+            Ragam sut maju mundur, memberi makna bahwa mendahulukan sikap adil
+            dan sabardengan keseimbangan
+          </li>
           <li>Ragam siku keluang, adalah dinamis kehidupan</li>
-          <li>Ragam Siku keluang sembah, memberi makna bahwa melaksanakan dinamis kehidupan dijalan Allah SWT</li>
+          <li>
+            Ragam Siku keluang sembah, memberi makna bahwa melaksanakan dinamis
+            kehidupan dijalan Allah SWT
+          </li>
           <li>Ragam Menyambar, adalah ketangkasan dan kegagalan</li>
           <li>Ragam mata angin, bermakna kehidupan yang mempunyai tujuan.</li>
           <li>Ragam pecah lapan, adalah penguasaan ke delapan penjuru angin</li>
-          <li>Ragam pecah lapan sut, adalah penguasaan ke delapan penjuru angin yang diikuti dengan keadilan dan kesabaran</li>
+          <li>
+            Ragam pecah lapan sut, adalah penguasaan ke delapan penjuru angin
+            yang diikuti dengan keadilan dan kesabaran
+          </li>
           <li>Ragam anak ayam patah, adalah sifat tak kenal menyerah</li>
-          <li>Ragam minta tahto/ tahtim, adalah sikap rendah diri dan saling menghargai</li>
+          <li>
+            Ragam minta tahto/ tahtim, adalah sikap rendah diri dan saling
+            menghargai
+          </li>
           <li>Ragam tahto/tahtim, adalah ketulusan hati dan berterimakasih</li>
+        </ul>
+        <h2 className="text-primary text-2xl font-mon-semiBold mb-3">
+          Pola Dasar Zapin
+        </h2>
+        <p className="mb-2">
+          Pola-pola langkah dasar tari zapin adalah seperti berikut :
+        </p>
+        <ul className="list-decimal flex flex-col gap-5 mb-12">
+          <li>
+            Langkah dasar maju dan mudur <br />
+            Langkah 1 dalam bentuk titik atau jinjit dimulai dengan kaki kanan
+            <br />
+            Langkah 2, kaki yang di titik atau di injakkan lalu dilangkahkan
+            kaki kanan. <br />
+            Langkah 3, kaki kiri dilangkahkan.
+            <br />
+            Langkah 4, kaki kanan dilangkahkan.
+            <br />
+            Langkah 5, kaki kiri di titik atau di jinjitkan dan
+            <br />
+            langkah 6<br />
+            Langkah 7<br />
+            Langkah 8<br />
+            Setelah langkah maju ini selesai dari hitungan 1 sampai ke hitungan
+            ke 8maka dibalas dengan melangkah mundur kebelakang. Langkah
+            tersebut juga dilakukan dari hitungan 1 sampai ke hitungan 8.
+            <div className="w-full md:w-5/6 mt-3 p-5 flex flex-row flex-wrap md:flex-nowrap justify-around gap-4 md:gap-0 bg-transparent shadow-lg shadow-black rounded-2xl">
+              <div className="w-fit flex flex-col text-center">
+                <img src={Kaki1} alt="" />
+                <h3>Langkah 1</h3>
+              </div>
+              <div className="w-fit flex flex-col text-center">
+                <img src={Kaki2} alt="" />
+                <h3>Langkah 2</h3>
+              </div>
+              <div className="w-fit flex flex-col text-center">
+                <img src={Kaki3} alt="" />
+                <h3>Langkah 3</h3>
+              </div>
+              <div className="w-fit flex flex-col text-center">
+                <img src={Kaki4} alt="" />
+                <h3>Langkah 4</h3>
+              </div>
+              <div className="w-fit flex flex-col text-center">
+                <img src={Kaki5} alt="" />
+                <h3>Langkah 5</h3>
+              </div>
+              <div className="w-fit flex flex-col text-center">
+                <img src={Kaki6} alt="" />
+                <h3>Langkah 6</h3>
+              </div>
+              <div className="w-fit flex flex-col text-center">
+                <img src={Kaki7} alt="" />
+                <h3>Langkah 7</h3>
+              </div>
+            </div>
+          </li>
+          <li>
+            Langkah maju balik kanan atau langkah alif Pada dasarnya langkah
+            maju <br />
+            balik kanan atau langkah alif adalah sama dengan langkah dasar maju
+            mundur. Perbedaanya hanya berlaku pada hitungan 8, apabila langkah
+            gerak balik kanan dilakukan dengan memutarkan kaki sebanyak 180
+            derajat.
+          </li>
+          <li>
+            Langkah sut Langkah sut <br />
+            boleh dilakukan sebagai langkah sut depan atau langkah sut mundur.
+            <img src={Kaki8} alt="" />
+          </li>
+          <li>
+            Langkah menyambar <br />
+            Langkah menyambar dimulai pada hitungan 4 dan hitungan 8. Setiap
+            kaki yang sedang di injit itu akan melakukan langkah menyambar.
+            <img src={Kaki9} alt="" />
+          </li>
+          <li>
+            Langkah siku keluang <br />
+            Langkah siku keluang dilakukan semasa mengulang
+            4x delapan hitungan. Siku keluang dilakukan sebanyak 3x semasa
+            menarikan 4x, 8 hitungan. Kelima jenis langkah dasar tersebut dapat
+            dikembangkan dalam bentuk-bentuk berikut. Langkah satu sampai
+            delapan untuk langkah dasar maju mundur dapat dikembangkan menjadi :
+            <ul className="list-dash px-2">
+              <li>Langkah meniti batang</li>
+              <li>Langkah sentak jerat</li>
+              <li>Langkah sut maju mundur</li>
+              <li>Langkah sut gantung</li>
+              <li>Langkah sut siku samping</li>
+              <li>Langkah sut anak ayam patah</li>
+              <li>Langkah menyambar boleh dijadikan Langkah mata angin</li>
+              <li>Langkah bunga alif</li>
+            </ul>
+          </li>
+        </ul>
+        <h2 className="text-primary text-2xl font-mon-semiBold mb-3">
+          Pola langkah tari zapin siak
+        </h2>
+        <ul className="list-decimal mt-3">
+          <li>Langkah biasa/ dasar</li>
+          <li>Sut mundur</li>
+          <li>Sut depan/samping</li>
+          <li>Sut maju mundur</li>
+          <li>Sut gantung</li>
+          <li>Siku keluang</li>
+          <li>Siku keluang sembah</li>
+          <li>Pusing tengah</li>
+          <li>Pecah lapan</li>
+          <li>Bunga taman</li>
+          <li>Minta tahto</li>
+          <li>Tahto</li>
+        </ul>
+        <div>
+          Gambar
+        </div>
+        <h2 className="text-primary text-2xl font-mon-semiBold mb-2 mt-5">
+          Tehnik melakukan gerak tari zapin
+        </h2>
+        <p>apabila penari akan membuat gerak untuk duduk, selalu dilakukan hal berikut:</p>
+        <ul className="list-decimal">
+          <li>Untuk hitungan 1, kaki kanan atau kiri dititik atau diinjak.</li>
+          <li>Untuk hitungan 2, kaki kanan atau kiri dititik atau diinjak.</li>
+          <li>Untuk hitungan 3, kaki kiri disilang kebelakang kaki kanan.</li>
+          <li>Untuk hitungan 4, terus duduk untuk melakukan sembah atau gerak tangan lainnya.</li>
+          <li>Untuk hitungan 5, kaki kiri di titik atau diinjak sambil berdiri.</li>
+          <li>Untuk hitungan 6, kaki kiri disilang kedepan kaki kanan dan kaki diangkat.</li>
+          <li>Untuk hitungan 7, kaki kanan yang diangkat letakkan kembali.</li>
+          <li>Untuk hitungan 8, perubahan dilakukan dengan berpusing penuh atau separuh pusingan atau tetap berada pada arah yang sama.</li>
         </ul>
       </div>
     </div>
