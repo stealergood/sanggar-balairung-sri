@@ -7,6 +7,21 @@ import Kaki6 from "../../assets/images/gerakan/kaki6.png";
 import Kaki7 from "../../assets/images/gerakan/kaki7.png";
 import Kaki8 from "../../assets/images/gerakan/kaki8.png";
 import Kaki9 from "../../assets/images/gerakan/kaki9.png";
+import Gerakan1 from "../../assets/images/gerakan2/Gerakan1.png";
+import Gerakan2 from "../../assets/images/gerakan2/Gerakan2.png";
+import Gerakan3 from "../../assets/images/gerakan2/Gerakan3.png";
+import Gerakan4 from "../../assets/images/gerakan2/Gerakan4.png";
+import Gerakan5 from "../../assets/images/gerakan2/Gerakan5.png";
+import Gerakan6 from "../../assets/images/gerakan2/Gerakan6.png";
+import Gerakan7 from "../../assets/images/gerakan2/Gerakan7.png";
+import Gerakan8 from "../../assets/images/gerakan2/Gerakan8.png";
+import Gerakan9 from "../../assets/images/gerakan2/Gerakan9.png";
+import Gerakan10 from "../../assets/images/gerakan2/Gerakan10.png";
+import Gerakan11 from "../../assets/images/gerakan2/Gerakan11.png";
+import Gerakan12 from "../../assets/images/gerakan2/Gerakan12.png";
+import Gerakan13 from "../../assets/images/gerakan2/Gerakan13.png";
+import Gerakan14 from "../../assets/images/gerakan2/Gerakan14.png";
+import Gerakan15 from "../../assets/images/gerakan2/Gerakan15.png";
 
 export const Gerakan = () => {
   return (
@@ -193,11 +208,11 @@ export const Gerakan = () => {
           </li>
           <li>
             Langkah siku keluang <br />
-            Langkah siku keluang dilakukan semasa mengulang
-            4x delapan hitungan. Siku keluang dilakukan sebanyak 3x semasa
-            menarikan 4x, 8 hitungan. Kelima jenis langkah dasar tersebut dapat
-            dikembangkan dalam bentuk-bentuk berikut. Langkah satu sampai
-            delapan untuk langkah dasar maju mundur dapat dikembangkan menjadi :
+            Langkah siku keluang dilakukan semasa mengulang 4x delapan hitungan.
+            Siku keluang dilakukan sebanyak 3x semasa menarikan 4x, 8 hitungan.
+            Kelima jenis langkah dasar tersebut dapat dikembangkan dalam
+            bentuk-bentuk berikut. Langkah satu sampai delapan untuk langkah
+            dasar maju mundur dapat dikembangkan menjadi :
             <ul className="list-dash px-2">
               <li>Langkah meniti batang</li>
               <li>Langkah sentak jerat</li>
@@ -227,22 +242,97 @@ export const Gerakan = () => {
           <li>Minta tahto</li>
           <li>Tahto</li>
         </ul>
-        <div>
-          Gambar
+        <div className="w-full flex flex-wrap justify-start gap-5 mt-10">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>1</h3>
+            <img src={Gerakan1} alt="" />
+          </div>
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>1.a</h3>
+            <div className="flex gap-2">
+              <img src={Gerakan2} alt="" />
+              <img src={Gerakan3} alt="" />
+            </div>
+          </div>
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>2</h3>
+            <div className="flex gap-2">
+              <img src={Gerakan4} alt="" />
+              <img src={Gerakan5} alt="" />
+            </div>
+          </div>
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>3</h3>
+            <div className="flex gap-2">
+              <img src={Gerakan6} alt="" />
+              <img src={Gerakan7} alt="" />
+            </div>
+          </div>
         </div>
-        <h2 className="text-primary text-2xl font-mon-semiBold mb-2 mt-5">
+        <div className="w-full flex flex-wrap justify-start gap-5 mt-10">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>4</h3>
+            <img src={Gerakan8} alt="" />
+          </div>
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>5</h3>
+            <img src={Gerakan9} alt="" />
+          </div>
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>6</h3>
+            <img src={Gerakan10} alt="" />
+          </div>
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>7</h3>
+            <img src={Gerakan11} alt="" />
+          </div>
+        </div>
+        <div className="w-full flex flex-wrap justify-start gap-2 mt-10">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>8</h3>
+            <img src={Gerakan12} alt="" />
+          </div>
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>9</h3>
+            <img src={Gerakan13} alt="" />
+          </div>
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>10</h3>
+            <img src={Gerakan14} alt="" />
+          </div>
+          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+            <h3>11</h3>
+            <img src={Gerakan15} alt="" />
+          </div>
+        </div>
+
+        <h2 className="text-primary text-2xl font-mon-semiBold mb-2 mt-10">
           Tehnik melakukan gerak tari zapin
         </h2>
-        <p>apabila penari akan membuat gerak untuk duduk, selalu dilakukan hal berikut:</p>
+        <p>
+          apabila penari akan membuat gerak untuk duduk, selalu dilakukan hal
+          berikut:
+        </p>
         <ul className="list-decimal">
           <li>Untuk hitungan 1, kaki kanan atau kiri dititik atau diinjak.</li>
           <li>Untuk hitungan 2, kaki kanan atau kiri dititik atau diinjak.</li>
           <li>Untuk hitungan 3, kaki kiri disilang kebelakang kaki kanan.</li>
-          <li>Untuk hitungan 4, terus duduk untuk melakukan sembah atau gerak tangan lainnya.</li>
-          <li>Untuk hitungan 5, kaki kiri di titik atau diinjak sambil berdiri.</li>
-          <li>Untuk hitungan 6, kaki kiri disilang kedepan kaki kanan dan kaki diangkat.</li>
+          <li>
+            Untuk hitungan 4, terus duduk untuk melakukan sembah atau gerak
+            tangan lainnya.
+          </li>
+          <li>
+            Untuk hitungan 5, kaki kiri di titik atau diinjak sambil berdiri.
+          </li>
+          <li>
+            Untuk hitungan 6, kaki kiri disilang kedepan kaki kanan dan kaki
+            diangkat.
+          </li>
           <li>Untuk hitungan 7, kaki kanan yang diangkat letakkan kembali.</li>
-          <li>Untuk hitungan 8, perubahan dilakukan dengan berpusing penuh atau separuh pusingan atau tetap berada pada arah yang sama.</li>
+          <li>
+            Untuk hitungan 8, perubahan dilakukan dengan berpusing penuh atau
+            separuh pusingan atau tetap berada pada arah yang sama.
+          </li>
         </ul>
       </div>
     </div>
