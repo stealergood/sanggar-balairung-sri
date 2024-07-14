@@ -28,7 +28,7 @@ export const Navbar = () => {
             <details>
               <summary tabIndex={0}>Beranda</summary>
               <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
-                <li><a href="#">Biodata Balairung Sri</a></li>
+                <li><a href="/">Biodata Balairung Sri</a></li>
               </ul>
             </details>
           </li>
@@ -41,7 +41,7 @@ export const Navbar = () => {
                 <li><a href="/belajar/alat-musik">Alat Musik</a></li>
                 <li><a href="/belajar/lirik-lagu">Lirik Lagu</a></li>
                 <li><a href="/belajar/gerakan">Gerakan</a></li>
-                <li><a href="#">Tarian</a></li>
+                <li><a href="/belajar/tarian">Tarian</a></li>
               </ul>
             </details>
           </li>
@@ -49,7 +49,7 @@ export const Navbar = () => {
             <details>
               <summary tabIndex={0}>Fasilitas</summary>
               <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
-                <li><a href="#">Fasilitas Sanggar</a></li>
+                <li><a href="/fasilitas">Fasilitas Sanggar</a></li>
               </ul>
             </details>
           </li>
@@ -57,8 +57,8 @@ export const Navbar = () => {
             <details>
               <summary tabIndex={0}>Aktifitas</summary>
               <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
-                <li><a href="#">Kegiatan</a></li>
-                <li><a href="#">Latihan Rutin</a></li>
+                <li><a href="/aktifitas/kegiatan">Kegiatan</a></li>
+                <li><a href="/aktifitas/latihan">Latihan Rutin</a></li>
               </ul>
             </details>
           </li>
@@ -66,7 +66,7 @@ export const Navbar = () => {
             <details>
               <summary tabIndex={0}>Penghargaan</summary>
               <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
-                <li><a href="#">Penghargaan</a></li>
+                <li><a href="/penghargaan">Penghargaan</a></li>
               </ul>
             </details>
           </li>
@@ -74,8 +74,8 @@ export const Navbar = () => {
             <details>
               <summary tabIndex={0}>Galeri</summary>
               <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
-                <li><a href="#">Foto</a></li>
-                <li><a href="#">Video</a></li>
+                <li><a href="/galeri/foto">Foto</a></li>
+                <li><a href="/galeri/video">Video</a></li>
               </ul>
             </details>
           </li>
@@ -83,9 +83,9 @@ export const Navbar = () => {
             <details>
               <summary tabIndex={0}>Informasi</summary>
               <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-40`}>
-                <li><a href="#">Kontak</a></li>
-                <li><a href="#">Alamat</a></li>
-                <li><a href="#">Testimoni</a></li>
+                <li><a href="/informasi/kontak">Kontak</a></li>
+                <li><a href="/informasi/alamat">Alamat</a></li>
+                <li><a href="/informasi/testimoni">Testimoni</a></li>
               </ul>
             </details>
           </li>

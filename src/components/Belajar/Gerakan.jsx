@@ -242,7 +242,7 @@ export const Gerakan = () => {
           <li>Minta tahto</li>
           <li>Tahto</li>
         </ul>
-        <div className="w-full flex flex-wrap justify-start gap-5 mt-10">
+        <div className="w-full flex flex-wrap justify-center md:justify-start gap-5 mt-10">
           <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
             <h3>1</h3>
             <img src={Gerakan1} alt="" />
@@ -263,13 +263,13 @@ export const Gerakan = () => {
           </div>
           <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
             <h3>3</h3>
-            <div className="flex gap-2">
+            <div className="flex gap-2 flex-wrap justify-center">
               <img src={Gerakan6} alt="" />
               <img src={Gerakan7} alt="" />
             </div>
           </div>
         </div>
-        <div className="w-full flex flex-wrap justify-start gap-5 mt-10">
+        <div className="w-full flex flex-wrap justify-center md:justify-start gap-5 mt-10">
           <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
             <h3>4</h3>
             <img src={Gerakan8} alt="" />
@@ -287,7 +287,7 @@ export const Gerakan = () => {
             <img src={Gerakan11} alt="" />
           </div>
         </div>
-        <div className="w-full flex flex-wrap justify-start gap-2 mt-10">
+        <div className="w-full flex flex-wrap justify-center md:justify-start gap-2 mt-10">
           <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
             <h3>8</h3>
             <img src={Gerakan12} alt="" />
