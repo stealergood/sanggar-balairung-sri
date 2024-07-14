@@ -9,7 +9,7 @@ export const Penghargaan = () => {
       <div className="w-full flex justify-center font-blenda text-primary text-4xl md:text-6xl py-10">
         <h1>Penghargaan</h1>
       </div>
-      <div className='w-5/6 bg-[#C2B4B4] rounded-xl flex justify-around flex-wrap md:px-16'>
+      <div className='w-5/6 bg-[#C2B4B4] rounded-xl flex justify-around flex-wrap md:px-10'>
         <div className="w-fit bg-transparent flex flex-col flex-wrap items-center p-5 md:p-10 text-black">
           <img src={Penghargaan1} alt='penghargaan1'/>
           <h2 className='font-mon-bold'>Penghargaan</h2>

@@ -2,15 +2,15 @@ import VisiMisiPicture from "../../assets/images/visimisi.jpeg"
 
 export const VisiMisi = () => {
   return (
-    <div className='w-full bg-motif3 bg-cover bg-center'>
+    <div className='w-full bg-motif3 bg-cover bg-center px-20'>
       <div className="w-full flex justify-center py-10">
-        <h1 className="font-blenda text-primary text-4xl lg:text-7xl">Visi & Misi</h1>
+        <h1 className="font-blenda text-primary text-4xl lg:text-6xl">Visi & Misi</h1>
       </div>
-      <div className="w-full p-7 lg:p-10 lg:px-28 flex flex-wrap gap-10">
+      <div className="w-full flex flex-wrap gap-10">
         <div className=" flex justify-center">
           <img src={VisiMisiPicture} alt="visi misi" className="w-[25rem] rounded-xl" />
         </div>
-        <div className="lg:w-[57%] flex flex-col gap-3 order-last md:order-none">
+        <div className="w-[59%] flex flex-row flex-wrap gap-3 order-last md:order-none">
           <h2 className="font-blenda text-primary text-2xl">Misi</h2>
           <ul className="text-black decoration list-disc text-sm text-justify">
             <li>Menegaskan jejak seni budaya Siak sebagai akar dan puncak seni budaya Melayu serumpun.</li>

@@ -5,11 +5,11 @@ import Marwas from "../../assets/svgComponent/Marwas";
 export const Sejarah = () => {
   return (
     <div className="w-full lg:h-[50rem] relative flex flex-col bg-motif bg-center bg-cover">
-      <div className="w-full flex justify-center py-10 text-4xl md:text-7xl">
+      <div className="w-full flex justify-center py-10 text-5xl md:text-7xl">
         <h1 className="font-blenda text-primary">Balairung Sri</h1>
       </div>
       <div className="w-full p-10 lg:p-10 flex flex-col-reverse gap-5 lg:gap-0 lg:flex-row justify-around py-10">
-        <div className="w-full lg:w-[40%] flex flex-wrap text-black text-justify text-base md:text-lg mb-5 md:mb-0">
+        <div className="w-full lg:w-[40%] flex flex-wrap text-black text-justify text-[12px] md:text-lg mb-5 md:mb-0">
           <p>
             Sanggar Tari dan Musik Balairung Sri adalah komunitas yang terletak
             di Kabupaten Siak, Riau. Didirikan pada 7 Mei 2017, sanggar ini

@@ -1,19 +1,19 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.jpg";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white ">
-      <div className="flex justify-between items-center lg:px-10 py-3 px-3">
+    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white px-16">
+      <div className="flex justify-between items-center py-3">
         <div className="flex items-center">
-          <img className="w-12 md:w-20" src={Logo} alt="Logo" />
-          <div className="flex flex-col md:items-center ml-2">
+          <img className="w-12 md:w-[10rem]" src={Logo} alt="Logo" />
+          {/* <div className="flex flex-col md:items-center ml-2">
             <h1 className="font-blenda text-primary text-base md:text-2xl md:ml-2">Balairung Sri</h1>
             <p className="text-primary text-xs md:font-bold md:ml-2">Sanggar Tari dan Musik</p>
-          </div>
+          </div> */}
         </div>
         <button 
           className="md:hidden text-primary" 
@@ -22,7 +22,7 @@ export const Navbar = () => {
           {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </button>
       </div>
-      <div className={`md:flex-grow md:flex md:items-center md:justify-around ${menuOpen ? 'flex' : 'hidden'} md:flex`}>
+      <div className={` md:flex md:items-center md:justify-around ${menuOpen ? 'flex' : 'hidden'} md:flex`}>
         <ul className="menu menu-vertical md:menu-horizontal text-primary text-base font-bold w-full md:w-auto">
           <li className="dropdown dropdown-hover">
             <details>
@@ -57,8 +57,8 @@ export const Navbar = () => {
             <details>
               <summary tabIndex={0}>Aktifitas</summary>
               <ul className={`dropdown-content menu z-10 p-2 ${menuOpen ? 'bg-transparent shadow-none' : 'bg-white shadow'} rounded w-52`}>
-                <li><a href="/aktifitas/kegiatan">Kegiatan</a></li>
                 <li><a href="/aktifitas/latihan">Latihan Rutin</a></li>
+                <li><a href="/aktifitas/kegiatan">Kegiatan</a></li>
               </ul>
             </details>
           </li>

@@ -14,10 +14,10 @@ export const Kegiatan = () => {
         </ul>
       </div>
       <div className='w-full flex flex-col md:flex-row justify-center md:justify-around gap-10'>
-        <div className="w-fit bg-transparent flex justify-center p-5 md:p-10 rounded-badge shadow-xl shadow-black">
+        <div className="w-fit bg-transparent flex justify-center p-5 md:p-10 rounded-badge shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)]">
           <img src={Kegiatan1} alt='kegiatan1'/>
         </div>
-        <div className="w-fit bg-transparent flex justify-center p-5 md:p-10 rounded-badge shadow-xl shadow-black">
+        <div className="w-fit bg-transparent flex justify-center p-5 md:p-10 rounded-badge shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)]">
           <img src={Kegiatan2} alt='kegiatan2'/>
         </div>
       </div>
