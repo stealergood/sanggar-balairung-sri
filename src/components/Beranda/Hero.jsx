@@ -13,14 +13,14 @@ export const Hero = () => {
         <p className="text-white text-sm md:text-2xl lg:text-4xl font-bold md:mt-4 text-center">
           Sanggar Tari dan Musik
         </p>
-        <div className="flex flex-row md:mt-2">
+        {/* <div className="flex flex-row md:mt-2">
           <button className="bg-white text-primary text-sm md:text-xl lg:text-2xl font-medium px-4 py-2 rounded-md rounded-r-none md:mt-4">
             Aktifitas
           </button>
           <button className="bg-transparent border text-white text-sm md:text-xl lg:text-2xl font-medium px-4 py-2 rounded-md  rounded-l-none md:mt-4">
             Belajar
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
