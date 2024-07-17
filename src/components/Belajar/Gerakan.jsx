@@ -25,11 +25,11 @@ import Gerakan15 from "../../assets/images/gerakan2/Gerakan15.png";
 
 export const Gerakan = () => {
   return (
-    <div className="w-full h-[52rem] bg-motif2 bg-cover bg-center overflow-y-scroll">
-      <div className="w-full flex justify-center text-primary font-blenda text-3xl md:text-6xl py-10 md:p-10">
+    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center overflow-y-scroll">
+      <div className="w-full px-6 flex text-wrap text-center justify-center text-primary font-blenda text-4xl md:text-6xl py-20">
         <h1>Gerakan Tari Zapin</h1>
       </div>
-      <div className="w-full px-6 text-sm md:px-10 text-black pb-10 text-justify">
+      <div className="w-full px-6 text-lg md:px-16 text-black pb-10 text-justify">
         <p>
           Dalam menampilkan tari zapin , penari harus mengerti tentang tata cara
           mengawali tari tersebut. Pada mulanya, tari zapin ditarikan oleh dua
@@ -156,7 +156,7 @@ export const Gerakan = () => {
             Setelah langkah maju ini selesai dari hitungan 1 sampai ke hitungan
             ke 8maka dibalas dengan melangkah mundur kebelakang. Langkah
             tersebut juga dilakukan dari hitungan 1 sampai ke hitungan 8.
-            <div className="w-full md:w-5/6 mt-3 p-5 flex flex-row flex-wrap md:flex-nowrap justify-around gap-4 md:gap-0 bg-transparent shadow-lg shadow-black rounded-2xl">
+            <div className="w-full md:w-5/6 mt-5 p-5 flex flex-row flex-wrap md:flex-nowrap justify-around gap-4 md:gap-0 bg-yellow-100 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] rounded-2xl">
               <div className="w-fit flex flex-col text-center">
                 <img src={Kaki1} alt="" />
                 <h3>Langkah 1</h3>
@@ -242,65 +242,66 @@ export const Gerakan = () => {
           <li>Minta tahto</li>
           <li>Tahto</li>
         </ul>
-        <div className="w-full flex flex-wrap justify-center md:justify-start gap-5 mt-10">
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+        <div className="w-full flex flex-wrap justify-center md:justify-between gap-5 mt-10">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>1</h3>
             <img src={Gerakan1} alt="" />
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>1.a</h3>
             <div className="flex gap-2">
               <img src={Gerakan2} alt="" />
               <img src={Gerakan3} alt="" />
             </div>
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>2</h3>
             <div className="flex gap-2">
               <img src={Gerakan4} alt="" />
               <img src={Gerakan5} alt="" />
             </div>
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>3</h3>
             <div className="flex gap-2 flex-wrap justify-center">
               <img src={Gerakan6} alt="" />
               <img src={Gerakan7} alt="" />
             </div>
           </div>
-        </div>
-        <div className="w-full flex flex-wrap justify-center md:justify-start gap-5 mt-10">
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>4</h3>
             <img src={Gerakan8} alt="" />
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+        </div>
+        <div className="w-full flex flex-wrap justify-center md:justify-between gap-5 mt-10">
+
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>5</h3>
             <img src={Gerakan9} alt="" />
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>6</h3>
             <img src={Gerakan10} alt="" />
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>7</h3>
             <img src={Gerakan11} alt="" />
           </div>
         </div>
-        <div className="w-full flex flex-wrap justify-center md:justify-start gap-2 mt-10">
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+        <div className="w-full flex flex-col items-center md:flex-row justify-center md:justify-start gap-2 mt-10">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>8</h3>
             <img src={Gerakan12} alt="" />
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>9</h3>
             <img src={Gerakan13} alt="" />
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>10</h3>
             <img src={Gerakan14} alt="" />
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-lg shadow-black bg-transparent py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>11</h3>
             <img src={Gerakan15} alt="" />
           </div>

@@ -3,9 +3,9 @@ import Kegiatan2 from "../../assets/images/kegiatan2.png"
 
 export const Kegiatan = () => {
   return (
-    <div className='w-full bg-motif2 bg-cover bg-center px-10 pb-20'>
-      <div className='w-full flex flex-col gap-10 items-center py-10 font-blenda text-primary text-4xl md:text-6xl'>
-        <h1>Kegiatan</h1>
+    <div className='w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center px-10 pb-20 overflow-y-scroll'>
+      <div className='w-full flex flex-col gap-10 items-center py-20 font-blenda text-primary text-4xl md:text-6xl'>
+        <h1 className="text-center">Kegiatan</h1>
         <h3 className='text-base font-mon-bold'>Kegiatan yang telah diikuti oleh sanggar Balairung Sri</h3>
         <ul className='text-black font-mon-medium text-base list-decimal'>
           <li>lomba tari zapin siak tahun 2014</li>

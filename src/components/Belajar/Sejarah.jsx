@@ -1,13 +1,13 @@
 
 export const Sejarah = () => {
   return (
-    <div className="w-full h-[52rem] bg-motif bg-cover bg-center px-6 md:px-10 lg:px-16 overflow-y-scroll">
-      <div className="w-full flex justify-center py-10">
-        <h1 className="font-blenda text-primary text-2xl md:text-4xl lg:text-5xl">
+    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android1 md:bg-motif bg-cover bg-center overflow-y-scroll">
+      <div className="w-full flex justify-center py-20">
+        <h1 className="font-blenda text-primary text-4xl lg:text-6xl text-center">
           Sejarah Tari Zapin Siak
         </h1>
       </div>
-      <div className="w-full text-black text-justify mb-10">
+      <div className="w-full text-black text-justify mb-10 px-6 md:px-10 lg:px-20">
         <p>
           Tari Zapin adalah sebuah tarian tradisional khas Riau yang dianggap
           sebagai buah alkulturasi Budaya Arab dan Budaya Melayu di masa silam.

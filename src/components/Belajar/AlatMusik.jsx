@@ -1,15 +1,22 @@
-import Pendiri1 from "../../assets/images/pendiri1.jpg";
-import Musik from "../../assets/images/musik/musik.jpg";
+import Alat1 from "../../assets/images/alat-musik/alat1.png"
+import Alat2 from "../../assets/images/alat-musik/alat2.png"
+import Alat3 from "../../assets/images/alat-musik/alat3.png"
+import Alat4 from "../../assets/images/alat-musik/alat4.png"
+import Alat5 from "../../assets/images/alat-musik/alat5.png"
+import Alat6 from "../../assets/images/alat-musik/alat6.png"
+import Alat7 from "../../assets/images/alat-musik/alat7.png"
+import Alat8 from "../../assets/images/alat-musik/alat8.png"
+import Alat9 from "../../assets/images/alat-musik/alat9.png"
 import Nada1 from "../../assets/images/musik/bismillah1.jpg"
 import Nada2 from "../../assets/images/musik/bismillah2.jpg"
 
 export const AlatMusik = () => {
   return (
-    <div className="w-full h-[52rem] bg-motif3 bg-cover bg-center overflow-y-scroll">
-      <div className="w-full flex justify-center pt-10">
-        <h1 className="font-blenda text-primary text-6xl">Alat Musik</h1>
+    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android3 md:bg-motif3 bg-cover bg-center overflow-y-scroll">
+      <div className="w-full flex justify-center py-20">
+        <h1 className="font-blenda text-primary text-4xl lg:text-6xl">Alat Musik</h1>
       </div>
-      <div className="w-full p-10 flex flex-col gap-3">
+      <div className="w-full px-6 lg:px-20 pb-10 flex flex-col gap-3">
         <p className="text-black">
           Dalam tari zapin siak menggunakan iringan musik dengan alat
           tradisional yaitu :
@@ -37,12 +44,12 @@ export const AlatMusik = () => {
             tarian tradisional Melayu.
           </p>
           <div className="flex gap-10 text-[10px] md:text-base">
-            <div className="w-52 flex flex-col flex-wrap justify-center text-center">
-              <img src={Pendiri1} alt="" className="w-52 rounded-2xl" />
+            <div className="w-52 flex flex-col flex-wrap justify-center text-center gap-2">
+              <img src={Alat1} alt="" className="w-52 rounded-[1.9rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]" />
               <h2>Contoh bagaimana cara memegang alat musik gambus</h2>
             </div>
-            <div className="w-52 flex flex-col flex-wrap justify-center text-center">
-              <img src={Pendiri1} alt="" className="w-52 rounded-2xl" />
+            <div className="w-52 flex flex-col flex-wrap justify-center text-center gap-2">
+              <img src={Alat2} alt="" className="w-52 rounded-[1.9rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]" />
               <h2>Contoh bagaimana cara memegang alat musik gambus</h2>
             </div>
           </div>
@@ -74,9 +81,9 @@ export const AlatMusik = () => {
             permusikan (notasi) nada tinggi dinyatakan dengan not yang tarangkai
             keatas, dan nada rendah not tangkainya kebawah.
           </p>
-          <div className="flex flex-col md:flex-row gap-5 md:gap-10">
-            <img src={Musik} alt="" className="w-48" />
-            <img src={Musik} alt="" className="w-48" />
+          <div className="flex flex-col md:flex-row gap-5 md:gap-10 py-5 items-center">
+            <img src={Alat5} alt="" className="w-48 rounded-[1.6rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]" />
+            <img src={Alat6} alt="" className="w-48 rounded-[1.6rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]" />
           </div>
           <p>
             Didalam memainkan marwas terdapat beberapa macam pikulan seperti
@@ -86,16 +93,22 @@ export const AlatMusik = () => {
           </p>
           <ul className="list-decimal px-5 flex flex-col gap-5">
             <li>
-              Pada bagian pertama pukul satu dengan simbol M1{" "}
-              <img src={Musik} alt="" className="w-60" />
+              Pada bagian pertama pukul satu dengan simbol M1
+              <div className="py-5">
+                <img src={Alat7} alt="" className=" w-60 rounded-[1.3rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]" />
+              </div>
             </li>
             <li>
-              Pada bagian kedua pukul dua dengan simbol M2{" "}
-              <img src={Musik} alt="" className="w-60" />
+              Pada bagian kedua pukul dua dengan simbol M2
+              <div className="py-5">
+                <img src={Alat8} alt="" className="w-60 rounded-[1.9rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]" />
+              </div>
             </li>
             <li>
-              Pada bagian ketiga pukul tiga dengan simbol M3{" "}
-              <img src={Musik} alt="" className="w-60" />
+              Pada bagian ketiga pukul tiga dengan simbol M3
+              <div className="py-5">
+                <img src={Alat9} alt="" className="w-60 rounded-[1.3rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]" />
+              </div>
             </li>
             <li>
               Bagian empat merupakan improvisasi dari kesemuanya sebagai pengisi
@@ -103,9 +116,9 @@ export const AlatMusik = () => {
               all around.
             </li>
           </ul>
-          <div className="py-10">
-            <div className="w-52 flex flex-col flex-wrap justify-center text-center">
-              <img src={Pendiri1} alt="" className="w-52 rounded-2xl" />
+          <div className="w-full flex justify-center md:justify-start pt-10 pb-5">
+            <div className="w-52 flex flex-col flex-wrap justify-center text-center gap-2">
+              <img src={Alat3} alt="" className="w-52 rounded-[1.8rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]" />
               <h2>alat musik marwas</h2>
             </div>
           </div>
@@ -138,7 +151,9 @@ export const AlatMusik = () => {
               dipecah menjadi tiga pukulan dan seterusnya. Untuk lebih jelasnya
               lihatlah partitur dibawah :
             </p>
-            <img src={Musik} alt="" className="w-72"/>
+            <div className="py-5">
+              <img src={Alat4} alt="" className="w-72 rounded-[1.2rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]"/>
+            </div>
           </div>
           <p className="mt-10">Untuk lebih jelas simaklah partitur komposisi musik zapin berikut :</p>
           <div className="w-full flex flex-col justify-center gap-10">
@@ -148,11 +163,11 @@ export const AlatMusik = () => {
             </div>
             <div className="w-full flex flex-col md:flex-row justify-center gap-10">
               <div className="w-fit flex flex-col text-center gap-2">
-                <img src={Nada1} alt="" className="w-[25rem] rounded-2xl"/>
+                <img src={Nada1} alt="" className="w-[25rem] rounded-2xl shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]"/>
                 <p>Note 1</p>
               </div>
               <div className="w-fit flex flex-col text-center gap-2">
-                <img src={Nada2} alt="" className="w-[25rem] rounded-2xl"/>
+                <img src={Nada2} alt="" className="w-[25rem] rounded-2xl shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]"/>
                 <p>Note 2</p>
               </div>
             </div>

@@ -1,12 +1,12 @@
 
 export const Latihan = () => {
   return (
-    <div className="w-full h-[70rem] md:h-[52rem] bg-motif bg-cover bg-center">
-      <div className="w-full flex flex-col items-center font-blenda text-primary text-4xl md:text-6xl py-10 gap-3">
+    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android1 md:bg-motif bg-cover bg-center">
+      <div className="w-full flex flex-col items-center font-blenda text-primary text-4xl md:text-6xl py-20 gap-3">
         <h1>Latihan Rutin</h1>
         <h2 className="text-lg md:text-xl font-mon-bold">Jadwal Latihan</h2>
       </div>
-      <div className="w-full h-fit px-5 lg:px-0 flex flex-col md:flex-row justify-center gap-7">
+      <div className="w-full h-fit px-6 lg:px-0 flex flex-col md:flex-row justify-center gap-7">
         <div className="md:w-3/6 lg:w-2/6 text-black bg-[#C2B4B4] p-5 lg:py-10 flex flex-col items-center gap-2 rounded-3xl">
           <h1 className="text-2xl md:text-3xl text-center font-mon-bold">
             Kelas A

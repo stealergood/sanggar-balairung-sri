@@ -5,8 +5,8 @@ export const Hero = () => {
   return (
     <div className="w-full lg:h-screen relative">
       <Slider />
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 lg:left-[23rem] lg:-translate-x-0 w-fit h-full flex flex-col items-center justify-center p-4 lg:p-0">
-        <Logo className="w-20 lg:w-[186px]" />
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 lg:left-[23rem] lg:-translate-x-0 w-fit h-full flex flex-col items-center justify-center  lg:p-0">
+        <Logo className="w-20 h-20 lg:h-fit lg:w-[186px]" />
         <h1 className="text-white text-xl md:text-6xl lg:text-8xl font-blenda text-center">
           Balairung Sri
         </h1>
