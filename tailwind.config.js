@@ -21,6 +21,7 @@ module.exports = withMT({
         "motif-android1": "url('/src/assets/images/bgandroid1.png')",
         "motif-android2": "url('/src/assets/images/bgandroid2.png')",
         "motif-android3": "url('/src/assets/images/bgandroid3.png')",
+        "motif-android4": "url('/src/assets/images/bgandroid4.png')",
       },
       fontFamily: {
         "mon-regular": "Montserrat-Regular",

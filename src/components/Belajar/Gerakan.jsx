@@ -26,11 +26,11 @@ import Gerakan15 from "../../assets/images/gerakan2/Gerakan15.png";
 export const Gerakan = () => {
   return (
     <div className="w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center overflow-y-scroll">
-      <div className="w-full px-6 flex text-wrap text-center justify-center text-primary font-blenda text-4xl md:text-6xl py-20">
+      <div className="w-full px-6 flex text-wrap text-center justify-center text-primary font-blenda text-4xl md:text-6xl py-10 md:py-20">
         <h1>Gerakan Tari Zapin</h1>
       </div>
-      <div className="w-full px-6 text-lg md:px-16 text-black pb-10 text-justify">
-        <p>
+      <div className="w-full px-6 text-[12px] md:text-base md:px-16 text-black pb-10 text-justify ">
+        <p className="indent-6">
           Dalam menampilkan tari zapin , penari harus mengerti tentang tata cara
           mengawali tari tersebut. Pada mulanya, tari zapin ditarikan oleh dua
           orang, dan setiap penari harus dapat menguasai semua ragam atau bunga
@@ -44,7 +44,7 @@ export const Gerakan = () => {
           zapin , penari harus mengerti tentang tata cara mengawali tari
           tersebut. Gerak laku atau sikap dalam menari zapin :
         </p>
-        <ul className="list-[lower-alpha] mt-3 px-5">
+        <ul className="list-decimal list-inside mt-3">
           <li>Langkah tidak terlalu melebar</li>
           <li>
             Posisi tangan kiri membentuk siku-siku dan tidak bebas bergerak.
@@ -69,7 +69,7 @@ export const Gerakan = () => {
           <li>Gerak/goyang pada tubuh tidak berlebihan</li>
           <li>Goyang pinggul tidak dibenarkan</li>
         </ul>
-        <p className="mt-5">
+        <p className="mt-5 indent-6">
           Berdasarkan aturan, setelah musik dibunyikan, maka kedua penari maju
           ketengah dan menghadap kepada hadirin yang ada dalam acara. Seterusnya
           penari memberi hormat lalu duduk dengan posisi sebagai berikut selama
@@ -81,13 +81,13 @@ export const Gerakan = () => {
           <li>Tangan kiri dilipatkan hingga ujung lutut</li>
           <li>Lengan tangan kanan melintang diatas lutut</li>
         </ul>
-        <p>
+        <p className="indent-6">
           Setelah penari melakukan gerakan penghormatan, barulah penari berdiri
           memulai tarianya. Tari zapin yang terdapat di siak sri indrapura
           memiliki berbagai macam bunga atau ragam gerak diantaranya yang
           terkenal adalah:
         </p>
-        <ul className="list-decimal mt-3 px-5 mb-10">
+        <ul className="list-decimal list-inside mt-3 mb-10">
           <li>
             Langkah 1 - 8 : disebut langkah biasa/langkah dasar. Langkah dasar
             memiliki makna hasil yang besar selalu dimulai dari awal yang kecil
@@ -137,26 +137,26 @@ export const Gerakan = () => {
         <p className="mb-2">
           Pola-pola langkah dasar tari zapin adalah seperti berikut :
         </p>
-        <ul className="list-decimal flex flex-col gap-5 mb-12">
+        <ul className="list-decimal list-inside flex flex-col gap-5 mb-12">
           <li>
             Langkah dasar maju dan mudur <br />
-            Langkah 1 dalam bentuk titik atau jinjit dimulai dengan kaki kanan
+            
+            <span className="ml-5">Langkah 1 dalam bentuk titik atau jinjit dimulai dengan kaki kanan</span>
             <br />
-            Langkah 2, kaki yang di titik atau di injakkan lalu dilangkahkan
+            <span className="ml-5">Langkah 2, kaki yang di titik atau di injakkan lalu dilangkahkan</span>
             kaki kanan. <br />
-            Langkah 3, kaki kiri dilangkahkan.
+            <span className="ml-5">Langkah 3, kaki kiri dilangkahkan.</span>
             <br />
-            Langkah 4, kaki kanan dilangkahkan.
+            <span className="ml-5">Langkah 4, kaki kanan dilangkahkan.</span>
             <br />
-            Langkah 5, kaki kiri di titik atau di jinjitkan dan
+            <span className="ml-5">Langkah 5, kaki kiri di titik atau di jinjitkan dan langkah 6</span>
             <br />
-            langkah 6<br />
-            Langkah 7<br />
-            Langkah 8<br />
-            Setelah langkah maju ini selesai dari hitungan 1 sampai ke hitungan
+            <span className="ml-5">Langkah 7</span><br />
+            <span className="ml-5">Langkah 8</span><br />
+            <span className="ml-5">Setelah langkah maju ini selesai dari hitungan 1 sampai ke hitungan
             ke 8maka dibalas dengan melangkah mundur kebelakang. Langkah
-            tersebut juga dilakukan dari hitungan 1 sampai ke hitungan 8.
-            <div className="w-full md:w-5/6 mt-5 p-5 flex flex-row flex-wrap md:flex-nowrap justify-around gap-4 md:gap-0 bg-yellow-100 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] rounded-2xl">
+            tersebut juga dilakukan dari hitungan 1 sampai ke hitungan 8.</span>
+            <div className="w-full md:w-5/6 mt-5 p-5 flex flex-row flex-wrap md:flex-nowrap justify-around gap-4 md:gap-0 bg-yellow-100 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] rounded-2xl">
               <div className="w-fit flex flex-col text-center">
                 <img src={Kaki1} alt="" />
                 <h3>Langkah 1</h3>
@@ -225,10 +225,10 @@ export const Gerakan = () => {
             </ul>
           </li>
         </ul>
-        <h2 className="text-primary text-2xl font-mon-semiBold mb-3">
+        <h2 className="text-primary text-lg md:text-2xl text-start font-mon-semiBold mb-3">
           Pola langkah tari zapin siak
         </h2>
-        <ul className="list-decimal mt-3">
+        <ul className="list-decimal list-inside mt-3">
           <li>Langkah biasa/ dasar</li>
           <li>Sut mundur</li>
           <li>Sut depan/samping</li>
@@ -243,78 +243,78 @@ export const Gerakan = () => {
           <li>Tahto</li>
         </ul>
         <div className="w-full flex flex-wrap justify-center md:justify-between gap-5 mt-10">
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>1</h3>
             <img src={Gerakan1} alt="" />
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>1.a</h3>
             <div className="flex gap-2">
               <img src={Gerakan2} alt="" />
               <img src={Gerakan3} alt="" />
             </div>
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>2</h3>
             <div className="flex gap-2">
               <img src={Gerakan4} alt="" />
               <img src={Gerakan5} alt="" />
             </div>
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>3</h3>
             <div className="flex gap-2 flex-wrap justify-center">
               <img src={Gerakan6} alt="" />
               <img src={Gerakan7} alt="" />
             </div>
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>4</h3>
             <img src={Gerakan8} alt="" />
           </div>
         </div>
         <div className="w-full flex flex-wrap justify-center md:justify-between gap-5 mt-10">
 
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>5</h3>
             <img src={Gerakan9} alt="" />
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>6</h3>
-            <img src={Gerakan10} alt="" />
+            <img src={Gerakan10} alt="" className="h-[195px]"/>
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>7</h3>
-            <img src={Gerakan11} alt="" />
+            <img src={Gerakan11} alt="" className="h-[195px]"/>
           </div>
         </div>
-        <div className="w-full flex flex-col items-center md:flex-row justify-center md:justify-start gap-2 mt-10">
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+        <div className="w-full flex flex-col items-center md:flex-row justify-center md:justify-between gap-2 mt-10">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>8</h3>
-            <img src={Gerakan12} alt="" />
+            <img src={Gerakan12} alt="" className="h-[195px]"/>
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>9</h3>
-            <img src={Gerakan13} alt="" />
+            <img src={Gerakan13} alt="" className="h-[195px]"/>
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>10</h3>
-            <img src={Gerakan14} alt="" />
+            <img src={Gerakan14} alt="" className="h-[195px]"/>
           </div>
-          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_33px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
+          <div className="w-fit flex flex-col text-center gap-2 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 py-5 px-2">
             <h3>11</h3>
-            <img src={Gerakan15} alt="" />
+            <img src={Gerakan15} alt="" className="h-[195px]"/>
           </div>
         </div>
 
-        <h2 className="text-primary text-2xl font-mon-semiBold mb-2 mt-10">
+        <h2 className="text-primary text-lg md:text-2xl text-start font-mon-semiBold mb-2 mt-10">
           Tehnik melakukan gerak tari zapin
         </h2>
         <p>
           apabila penari akan membuat gerak untuk duduk, selalu dilakukan hal
           berikut:
         </p>
-        <ul className="list-decimal">
+        <ul className="list-decimal list-inside">
           <li>Untuk hitungan 1, kaki kanan atau kiri dititik atau diinjak.</li>
           <li>Untuk hitungan 2, kaki kanan atau kiri dititik atau diinjak.</li>
           <li>Untuk hitungan 3, kaki kiri disilang kebelakang kaki kanan.</li>

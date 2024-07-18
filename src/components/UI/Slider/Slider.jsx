@@ -1,5 +1,5 @@
 import { Carousel } from "@material-tailwind/react";
-import Herobg1 from "../../../assets/images/herobg1.jpeg";
+import Herobg1 from "../../../assets/images/herobg1.png";
 import Herobg2 from "../../../assets/images/herobg2.jpeg";
 
 export const Slider = () => {
@@ -8,7 +8,7 @@ export const Slider = () => {
       <img
         src={Herobg1}
         alt="image 1"
-        className="h-full w-full object-cover"
+        className="h-full w-full object-fill"
       />
       <img
         src={Herobg2}

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IoIosArrowDown } from "react-icons/io";
-import Logo from "../../assets/logo.jpg";
+import Logo from "../../assets/logo.png";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +20,7 @@ export const Navbar = () => {
     <div className="w-full flex flex-col md:flex-row md:justify-between bg-white px-6 md:px-16">
       <div className="flex justify-between items-center py-3">
         <div className="flex items-center">
-          <img className="w-16 md:w-[10rem]" src={Logo} alt="Logo" />
+          <img className="w-20 md:w-[10rem]" src={Logo} alt="Logo" />
         </div>
         <button 
           className="md:hidden text-primary" 
@@ -72,7 +72,7 @@ export const Navbar = () => {
                   <ul className={`md:absolute ${submenuOpen[index] ? 'block' : 'hidden'} md:group-hover:block md:bg-white md:shadow rounded w-44 z-10 `}>
                     {menu.submenu.map((item, subIndex) => (
                       <li key={subIndex} className="py-1 px-3 hover:bg-gray-200">
-                        <a onClick={() => handleItemClick(subIndex)} href={item.link} className={`${clickedItem === subIndex ? 'text-[#EBD75B]' : ''}`}>{item.name}</a>
+                        <a onClick={() => handleItemClick(subIndex)} href={item.link} className={`hover:text-[#EBD75B] ${clickedItem === subIndex ? 'text-[#EBD75B]' : ''}`}>{item.name}</a>
                       </li>
                     ))}
                   </ul>

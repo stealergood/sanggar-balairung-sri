@@ -2,13 +2,16 @@
 export const Sejarah = () => {
   return (
     <div className="w-full h-[800px] md:h-[1024px] bg-motif-android1 md:bg-motif bg-cover bg-center overflow-y-scroll">
-      <div className="w-full flex justify-center py-20">
-        <h1 className="font-blenda text-primary text-4xl lg:text-6xl text-center">
+      <div className="w-full flex justify-center py-10 md:py-20 text-wrap md:px-0">
+        <h1 className="block md:hidden font-blenda text-primary text-4xl lg:text-6xl text-center">
+          Sejarah Tari <br /> Zapin Siak
+        </h1>
+        <h1 className="hidden md:block font-blenda text-primary text-4xl lg:text-6xl text-center">
           Sejarah Tari Zapin Siak
         </h1>
       </div>
-      <div className="w-full text-black text-justify mb-10 px-6 md:px-10 lg:px-20">
-        <p>
+      <div className="w-full flex flex-col text-black text-[12px] md:text-base text-justify mb-10 px-6 md:px-10 lg:px-20 gap-2">
+        <p className="indent-6">
           Tari Zapin adalah sebuah tarian tradisional khas Riau yang dianggap
           sebagai buah alkulturasi Budaya Arab dan Budaya Melayu di masa silam.
           Hamzah Ahmed (1984 :71) mengatakan Zapin lahir pada tahun keenam
@@ -25,7 +28,7 @@ export const Sejarah = () => {
           menjadi hiburan bagi masyarakat pada waktu itu yang lama kelamaan
           berkembang hingga sampai di wilayah Nusantara ini.
         </p>
-        <p>
+        <p className="indent-6">
           Berkembangnya Zapin di Indonesia berkaitan dengan para pedagang dan
           penyebar agama Islam dari Arab dan Gujarat bersama senimannya yang
           secara halus telah memulai pendekatan keagamaan melalui kesenian dan
@@ -39,7 +42,7 @@ export const Sejarah = () => {
           untuk menyebarluaskan penyiaran Islam ke seluruh penjuru dunia, lalu
           dengan sendirinya masyarakat dunia mulai mengenal tari Zapin.
         </p>
-        <p>
+        <p className="indent-6">
           Masyarakat Indonesia sangat dengan Zapin, karena warna, corak dan
           nafas yang dikumandangkannya tidak berlebihan dan sederhana. Begitu
           juga instrumen atau alat musik yang mendukungnya. Begitulah bagaimana
@@ -51,7 +54,7 @@ export const Sejarah = () => {
           antara masyarakat Arab dengan masyarakat Riau ataupun dengan
           masyarakat Siak.
         </p>
-        <p>
+        <p className="indent-6">
           Untuk memahami arti dari kata Zapin tu kita simak hasil kajian para
           ahli yang menggeluti bidang Zapin ini. Dr. Omar Amir Hoesin (1981 :
           467) menyatakan balwa kata Zapin berasal dari kata Al-Zapn. Sedangkan
@@ -66,7 +69,7 @@ export const Sejarah = () => {
           saja. Gerak tangan terjadi secara otomatis karena pengaruh dari gerak
           badan yang diakibatkan oleh gerak kaki
         </p>
-        <p>
+        <p className="indent-6">
           Pada masa dahulu, Zapin tidaklah dilakukan pada sembarang tempat
           sebagaimana tari rakyat lainnya, tetapi Zapin ditampilkan dalam acara
           tertentu saja seperti di istana dan disediakan tempat dengan

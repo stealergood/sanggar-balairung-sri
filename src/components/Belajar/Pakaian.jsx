@@ -3,14 +3,15 @@ import Pakaian3 from "../../assets/images/pakaian/pakaian3.png";
 import Pakaian4 from "../../assets/images/pakaian/pakaian4.png";
 import Pakaian5 from "../../assets/images/pakaian/pakaian5.png";
 import Pakaian6 from "../../assets/images/pakaian/pakaian6.png";
+import Pakaian7 from "../../assets/images/pakaian/pakaian7.jpeg";
 
 export const Pakaian = () => {
   return (
     <div className="w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center overflow-y-scroll">
-      <div className="w-full flex justify-center py-20">
+      <div className="w-full flex justify-center pt-16 md:pt-0 py-10 md:py-20">
         <h1 className="font-blenda text-primary text-center text-4xl md:text-6xl">Pakaian</h1>
       </div>
-      <div className="w-full px-6 lg:px-20 pb-10">
+      <div className="w-full px-6 lg:px-20 pb-10 text-[12px] md:text-base">
         <ul className="text-black text-justify list-disc">
           <li>
             Pakaian pada laki-laki yang menarikan tari zapin Siak berupa setelan
@@ -35,26 +36,14 @@ export const Pakaian = () => {
             Zapin Siak.
           </li>
         </ul>
-        <div className="w-full flex flex-wrap gap-16 justify-center pt-10">
+        <div className="w-full flex flex-wrap gap-16 justify-center pt-20">
           <div className="w-fit h-fit flex flex-col gap-2 text-center text-black">
-            <img src={Pakaian1} alt="pakaian1" className="rounded-[2rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]"/>
-            <span>Kain Songket Tenuan Siak Istana</span>
+            <img src={Pakaian7} alt="pakaian1" className="w-64 md:w-80 rounded-[2rem] shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)]"/>
+            <span>Baju Melayu Cekak Musang</span>
           </div>
           <div className="w-fit h-fit flex flex-col gap-2 text-center text-black">
-            <img src={Pakaian3} alt="pakaian1" className="rounded-[2rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]"/>
-            <span>Kain Songket Tenuan Siak Istana</span>
-          </div>
-          <div className="w-fit h-fit flex flex-col gap-2 text-center text-black">
-            <img src={Pakaian4} alt="pakaian1" className="rounded-[2rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]"/>
-            <span>Kain Songket Tenuan Siak Istana</span>
-          </div>
-          <div className="w-fit h-fit flex flex-col gap-2 text-center text-black">
-            <img src={Pakaian5} alt="pakaian1" className="rounded-[2rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]"/>
-            <span>Kain Songket Tenuan Siak Istana</span>
-          </div>
-          <div className="w-fit h-fit flex flex-col gap-2 text-center text-black">
-            <img src={Pakaian6} alt="pakaian1" className="rounded-[2rem] shadow-[0px_0px_41px_-2px_rgba(0,0,0,0.75)]"/>
-            <span>Kain Songket Tenuan Siak Istana</span>
+            <img src={Pakaian1} alt="pakaian1" className="w-64 md:w-80 h-[426px] rounded-[2rem] shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)]"/>
+            <span>Baju Kurung</span>
           </div>
         </div>
       </div>

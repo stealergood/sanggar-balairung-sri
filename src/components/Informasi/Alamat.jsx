@@ -2,10 +2,10 @@
 export const Alamat = () => {
   return (
     <div className='w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center px-5 md:px-10 pb-16'>
-      <div className='w-full flex justify-center font-blenda text-primary text-4xl md:text-6xl py-10'>
+      <div className='w-full flex justify-center font-blenda text-primary text-4xl md:text-6xl py-10 pt-20 md:pt-48'>
         <h1>Alamat</h1>
       </div>
-      <div className='flex flex-col items-center justify-center gap-5 text-black font-medium text-xl text-center'>
+      <div className='flex flex-col items-center justify-center gap-5 text-black font-medium text-[12px] md:text-xl text-center'>
         <iframe
           className='rounded-xl md:w-[600px] lg:w-[800px] h-[400px] md:h-[450px] lg:h-[480px]'
           style={{ border: 0 }}
