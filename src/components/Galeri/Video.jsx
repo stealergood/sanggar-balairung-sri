@@ -1,10 +1,5 @@
 import { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
-import Video1 from "../../assets/video/galeri1.mp4"
-import Video2 from "../../assets/video/galeri2.mp4"
-import Video3 from "../../assets/video/galeri3.mp4"
-import Video4 from "../../assets/video/galeri4.mp4"
-import Video5 from "../../assets/video/galeri5.mp4"
 import Galeri1 from "../../assets/images/galeri-foto/galeri1.png";
 import Galeri2 from "../../assets/images/galeri-foto/galeri2.png";
 import Galeri3 from "../../assets/images/galeri-foto/galeri3.png";

@@ -1,8 +1,4 @@
 import Pakaian1 from "../../assets/images/pakaian/pakaian1.png";
-import Pakaian3 from "../../assets/images/pakaian/pakaian3.png";
-import Pakaian4 from "../../assets/images/pakaian/pakaian4.png";
-import Pakaian5 from "../../assets/images/pakaian/pakaian5.png";
-import Pakaian6 from "../../assets/images/pakaian/pakaian6.png";
 import Pakaian7 from "../../assets/images/pakaian/pakaian7.jpeg";
 
 export const Pakaian = () => {

@@ -18,6 +18,7 @@ module.exports = withMT({
         "motif": "url('/src/assets/images/bg.png')",
         "motif2": "url('/src/assets/images/bg2.png')",
         "motif3": "url('/src/assets/images/bg3.png')",
+        "motif4": "url('/src/assets/images/bg4.png')",
         "motif-android1": "url('/src/assets/images/bgandroid1.png')",
         "motif-android2": "url('/src/assets/images/bgandroid2.png')",
         "motif-android3": "url('/src/assets/images/bgandroid3.png')",

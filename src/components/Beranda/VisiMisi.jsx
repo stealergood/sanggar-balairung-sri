@@ -2,8 +2,8 @@ import VisiMisiPicture from "../../assets/images/visimisi.jpeg";
 
 export const VisiMisi = () => {
   return (
-    <div className="w-full h-[1812px] md:h-[1024px] bg-motif-android4 md:bg-motif3 bg-cover bg-center py-10 md:py-0">
-      <div className="w-full flex justify-center pt-20 pb-10 md:py-20">
+    <div className="w-full h-[1264px] md:h-[1200px] bg-motif-android4 md:bg-motif4 bg-cover bg-center py-10 md:py-0">
+      <div className="w-full flex justify-center pt-10 pb-10 md:py-20 md:pt-48">
         <h1 className="font-blenda text-primary text-4xl lg:text-6xl">Visi & Misi</h1>
       </div>
       <div className="w-full flex flex-col lg:flex-row lg:flex-wrap gap-6 justify-between px-6 lg:px-20 md:pb-10">
@@ -13,7 +13,7 @@ export const VisiMisi = () => {
         <div className="w-full lg:w-[48%] lg:order-1 flex flex-col gap-6">
           <div>
             <h2 className="font-blenda text-primary text-2xl">Misi</h2>
-            <ul className="text-black list-disc list-inside text-[12px] text-justify mt-3">
+            <ul className="text-black list-disc list-inside text-[12px] md:text-lg text-justify mt-3">
               <li>Menegaskan jejak seni budaya Siak sebagai akar dan puncak seni budaya Melayu serumpun.</li>
               <li>Menjadikan Sanggar Tari dan Musik Balairung Sri Siak sebagai wadah pengembangan, pelestarian, dan kreasi seni budaya Melayu yaitu tari zapin tradisi.</li>
               <li>Menjadikan Sanggar Tari dan Musik Balairung Sri Siak sebagai pusat seni tradisi Siak, serta mitra Pemerintah Kabupaten Siak dalam menjaga, mengembangkan, dan mendidik generasi muda dalam melestarikan seni zapin Siak sebagai warisan budaya Melayu.</li>
@@ -26,7 +26,7 @@ export const VisiMisi = () => {
         <div className="w-full lg:w-full flex flex-col gap-6 lg:order-2">
           <div>
             <h2 className="font-blenda text-primary text-2xl">Visi</h2>
-            <ul className="text-black list-disc list-inside text-[12px] text-justify mt-3">
+            <ul className="text-black list-disc list-inside text-[12px] md:text-lg text-justify mt-3">
               <li>Mengangkat dan melestarikan seni dan budaya Melayu sebagai bentuk pengabdian kepada negeri, dengan menjunjung tinggi marwah dan kedaulatan Melayu yang berlandaskan iman dan taqwa.</li>
               <li>Menyebarluaskan seni budaya Melayu Siak ke seluruh kawasan nusantara</li>
               <li>Menumbuhkembangkan seni budaya Melayu Siak serta mempererat hubungan kekerabatan Melayu di berbagai belahan dunia.</li>
