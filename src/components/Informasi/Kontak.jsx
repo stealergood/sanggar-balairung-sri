@@ -5,7 +5,7 @@ import { AiOutlineYoutube } from "react-icons/ai";
 
 export const Kontak = () => {
   return (
-    <div className='w-full bg-motif bg-cover bg-center px-5 md:px-10 pb-16'>
+    <div className='w-full h-[800px] md:h-[1024px] bg-motif-android1 md:bg-motif bg-cover bg-center px-5 md:px-10 pb-16'>
       <div className="w-full flex justify-center font-blenda text-primary text-6xl py-10">
         <h1>Kontak</h1>
       </div>

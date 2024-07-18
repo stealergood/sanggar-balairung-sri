@@ -1,7 +1,7 @@
 
 export const Testimoni = () => {
   return (
-    <div className='w-full bg-motif3 bg-cover bg-center px-7 md:px-10 pb-16'>
+    <div className='w-full h-[800px] md:h-[1024px] bg-motif-android3 md:bg-motif3 bg-cover bg-center px-7 md:px-10 pb-16'>
       <div className='w-full flex justify-center py-10 pb-16 font-blenda text-primary text-6xl'>
         <h1>Testimoni</h1>
       </div>

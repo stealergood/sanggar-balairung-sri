@@ -5,10 +5,10 @@ import Marwas from "../../assets/svgComponent/Marwas";
 export const Sejarah = () => {
   return (
     <div className="w-full h-[800px] md:h-[1024px] relative px-6 flex flex-col bg-motif-android1 md:bg-motif bg-cover bg-center">
-      <div className="w-full flex justify-center py-10 text-4xl md:text-6xl">
+      <div className="w-full flex justify-center py-20 text-4xl md:text-6xl">
         <h1 className="font-blenda text-primary">Balairung Sri</h1>
       </div>
-      <div className="w-full lg:p-10 lg:px-20 flex flex-col-reverse gap-5 lg:gap-0 lg:flex-row justify-around py-10">
+      <div className="w-full p-6 lg:px-20 flex flex-col-reverse gap-5 lg:gap-0 lg:flex-row justify-around py-10">
         <div className="w-full lg:w-[40%] flex flex-wrap text-black text-justify text-[12px] md:text-lg mb-5 md:mb-0">
           <p>
             Sanggar Tari dan Musik Balairung Sri adalah komunitas yang terletak

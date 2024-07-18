@@ -1,7 +1,7 @@
 
 export const Alamat = () => {
   return (
-    <div className='w-full bg-motif2 bg-cover bg-center px-5 md:px-10 pb-16'>
+    <div className='w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center px-5 md:px-10 pb-16'>
       <div className='w-full flex justify-center font-blenda text-primary text-4xl md:text-6xl py-10'>
         <h1>Alamat</h1>
       </div>
