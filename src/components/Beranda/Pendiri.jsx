@@ -10,8 +10,8 @@ export const Pendiri = () => {
         </h1>
       </div>
       <div className="w-full flex flex-col px-6 lg:px-20 lg:items-center">
-        <div className="w-full flex flex-col md:flex-row items-center ">
-          <div className="py-8 px-6 md:px-10 lg:px-20">
+        <div className="w-full flex flex-col md:flex-row items-center">
+          <div className="py-5 md:py-8 px-6 md:px-10 lg:px-20">
             <img
               src={Pendiri1}
               alt="pendiri 1"
@@ -41,7 +41,7 @@ export const Pendiri = () => {
           </div>
         </div>
         <div className="w-full flex flex-col md:flex-row items-center">
-          <div className="py-8 px-6 md:px-10 lg:px-20">
+          <div className="py-5 md:py-8 px-6 md:px-10 lg:px-20">
             <img
               src={Pendiri2}
               alt="pendiri 2"
