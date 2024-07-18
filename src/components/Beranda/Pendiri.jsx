@@ -3,7 +3,7 @@ import Pendiri2 from "../../assets/images/pendiri2.jpg";
 
 export const Pendiri = () => {
   return (
-    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center">
+    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center py-20 md:py-0">
       <div className="w-full p-6 md:pt-20 flex justify-center">
         <h1 className="text-primary text-4xl md:text-4xl lg:text-6xl font-blenda">
           Pendiri
