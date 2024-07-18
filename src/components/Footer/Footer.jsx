@@ -6,7 +6,7 @@ import { FiYoutube } from "react-icons/fi";
 export const Footer = () => {
   return (
     <footer className="footer bg-[#C9BBB2] text-primary px-6 py-8 md:px-20 flex flex-col lg:flex-row gap-5 justify-around border-t-4 border-[#582022]">
-      <aside className="flex flex-col  lg:flex-col items-start lg:items-start gap-5">
+      <aside className="flex flex-col pb-5 md:pb-0 lg:flex-col items-start lg:items-start gap-5">
         <div className="flex items-start justify-start gap-3 lg:gap-5">
           <img className="w-40 md:w-56" src={Logo} alt="Logo" />
         </div>
