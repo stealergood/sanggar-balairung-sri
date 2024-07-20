@@ -1,13 +1,15 @@
 import SejarahPict from "../../assets/images/sejarah.jpeg";
+import Gambus from "../../assets/gambus.svg"
+import Marwas from "../../assets/marwas.svg"
 
 export const Sejarah = () => {
   return (
-    <div className="w-full h-[800px] md:h-[1024px] relative flex flex-col bg-motif-android1 md:bg-motif bg-cover bg-center">
+    <div className="w-full h-[800px] md:h-[1024px] flex flex-col bg-motif-android1 md:bg-motif bg-cover bg-center">
       <div className="w-full flex justify-center pt-5 md:py-20 text-4xl md:text-6xl">
         <h1 className="font-blenda text-primary">Balairung Sri</h1>
       </div>
       <div className="w-full px-6 lg:px-20 flex flex-col-reverse gap-10 lg:gap-0 lg:flex-row justify-around py-10">
-        <div className="w-full lg:w-[40%] flex flex-wrap text-black text-justify text-[12px] md:text-lg mb-5 md:mb-0">
+        <div className="w-full lg:w-[50%] flex flex-wrap text-black text-justify text-[12px] md:text-lg mb-5 md:mb-0">
           <p>
             Sanggar Tari dan Musik Balairung Sri adalah komunitas yang terletak
             di Kabupaten Siak, Riau. Didirikan pada 7 Mei 2017, sanggar ini
@@ -22,13 +24,13 @@ export const Sejarah = () => {
             bermanfaat dalam konservasi budaya di Provinsi Siak.
           </p>
         </div>
-        <div className="w-full lg:w-[45%]">
-          <img src={SejarahPict} alt="foto sejarah" className="rounded-xl" />
+        <div className="w-full lg:w-[45%] relative flex justify-center">
+          <img src={SejarahPict} alt="foto sejarah" className="rounded-xl w-5/6 md:w-full" />
+          <img src={Gambus} alt="gambus" className="absolute w-28 top-[-50px] right-[-10px] md:w-60 md:right-[-70px] md:top-[-150px]"/>
+          <img src={Gambus} alt="gambus" className="absolute block md:hidden rotate-[55deg] w-28 top-[-50px] left-[-10px]"/>
+          <img src={Marwas} alt="marwas" className="absolute w-12 md:w-28 top-[-20px] right-24 md:top-[-50px] md:right-36"/>
+          <img src={Marwas} alt="marwas" className="absolute block md:hidden w-12 top-[-20px] left-24"/>
         </div>
-        {/* <Gambus className="top-3 md:top-12  w-28 md:w-48 lg:w-fit rotate-12 md:rotate-0 right-0 md:right-0 absolute lg:top-10" />
-        <Marwas className="top-28 md:top-36 w-14 md:w-32 lg:w-fit right-24 md:right-36 absolute lg:right-52 lg:top-32" />
-        <Gambus className="lg:hidden w-28 md:w-48 rotate-45 top-3 md:top-12 left-0 absolute lg:top-10" />
-        <Marwas className="lg:hidden w-14 md:w-32 top-28 md:top-36 left-24 md:left-36 absolute lg:right-52 lg:top-32" /> */}
       </div>
     </div>
   );

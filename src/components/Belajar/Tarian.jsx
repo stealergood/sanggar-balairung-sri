@@ -1,11 +1,16 @@
 import { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
+import ReactPlayer from "react-player";
 import { RxCross2 } from "react-icons/rx";
-import Tarian1 from "../../assets/images/tarian/tarian1.jpeg";
-import Tarian2 from "../../assets/images/tarian/tarian2.jpeg";
-import Tarian3 from "../../assets/images/tarian/tarian3.jpeg";
+import Video1 from "../../assets/video/tarian1.mp4";
+import Video2 from "../../assets/video/tarian2.mp4";
+import Video3 from "../../assets/video/tarian3.mp4";
 
-const images = [Tarian1, Tarian2, Tarian3, Tarian1, Tarian2, Tarian3];
+const ytUrl1 = "https://youtu.be/mh9S2QpvKjM?si=KBm8DTds52wOt0Vu";
+const ytUrl2 = "https://youtu.be/QA50UGsC834?si=Te2ivZY0LG7yDFjv";
+const ytUrl3 = "https://youtu.be/IY0d_g7MDzU?si=CLZBal7FY_Z_3Ly9";
+
+const videos =[Video1, Video2, Video3, ytUrl1, ytUrl2, ytUrl3];
 
 export const Tarian = () => {
   const [isCarouselOpen, setIsCarouselOpen] = useState(false);
@@ -23,7 +28,7 @@ export const Tarian = () => {
       <div className="w-full flex justify-center font-blenda text-primary text-4xl md:text-6xl py-10 md:py-20">
         <h1>Tarian</h1>
       </div>
-      <p>
+      <p className="text-black">
         Berikut adalah video tari tradisional zapin siak yang dapat di akses
         untuk dipelajari secara daring :{" "}
       </p>
@@ -36,30 +41,32 @@ export const Tarian = () => {
                 <div className="relative w-full max-w-3xl h-full">
                   <button
                     onClick={closeCarousel}
-                    className="absolute top-5 right-5 text-black text-2xl z-10"
+                    className="absolute top-10 right-2 text-white text-2xl z-10"
                   >
                     <RxCross2 size={30} />
                   </button>
-                  <Carousel>
-                    {images.map((image, index) => (
-                      <img
+                  <Carousel navigation={false}>
+                    {videos.map((video, index) => (
+                      <ReactPlayer
                         key={index}
-                        src={image}
-                        alt={`Slide ${index}`}
-                        className="w-full h-full"
+                        url={video}
+                        controls={true}
+                        width="100%"
+                        height="100%"
                       />
                     ))}
                   </Carousel>
                 </div>
               </div>
             ) : (
-              <div className="flex flex-wrap flex-col md:flex-row w-full justify-around gap-10">
-                {images.map((image, index) => (
-                  <img
+              <div className="flex flex-wrap flex-col md:flex-row w-full justify-center gap-10">
+                {videos.map((videos, index) => (
+                  <ReactPlayer
                     key={index}
-                    src={image}
-                    alt=""
-                    className="cursor-pointer w-80"
+                    url={videos}
+                    // controls={true}
+                    width="320px"
+                    height="100%"
                     onClick={openCarousel}
                   />
                 ))}
@@ -69,13 +76,14 @@ export const Tarian = () => {
 
           {/* Static images for smaller screens */}
           <div className="block md:hidden">
-            <div className="flex flex-wrap flex-col w-full justify-around gap-10">
-              {images.map((image, index) => (
-                <img
+            <div className="flex flex-wrap flex-col w-full justify-center gap-10">
+              {videos.map((video, index) => (
+                <ReactPlayer
                   key={index}
-                  src={image}
-                  alt=""
-                  className="w-80"
+                  url={video}
+                  controls={true}
+                  width="100%"
+                  height="100%"
                 />
               ))}
             </div>

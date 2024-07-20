@@ -44,7 +44,7 @@ export const Kontak = () => {
             <AiOutlineYoutube size={40} color="#491D21" className="w-7 md:w-10"/>
           </div>
           <h1 className="font-mon-bold text-[12px] lg:text-3xl text-center">Youtube</h1>
-          <p className="font-mon-semiBold text-[12px] md:text-xl">Athantanjak chanel</p>
+          <p className="font-mon-semiBold text-[12px] md:text-xl">Athantanjak channel</p>
         </div>
       </div>
     </div>

@@ -1,13 +1,18 @@
 import { useState } from "react";
 import { Carousel } from "@material-tailwind/react";
-import Galeri1 from "../../assets/images/galeri-foto/galeri1.png";
-import Galeri2 from "../../assets/images/galeri-foto/galeri2.png";
-import Galeri3 from "../../assets/images/galeri-foto/galeri3.png";
-import Galeri4 from "../../assets/images/galeri-foto/galeri4.png";
-import Galeri5 from "../../assets/images/galeri-foto/galeri5.png";
-import Galeri6 from "../../assets/images/galeri-foto/galeri6.png";
+import ReactPlayer from "react-player";
+import Video1 from "../../assets/video/galeri1.mp4";
+import Video2 from "../../assets/video/galeri2.mp4";
+import Video3 from "../../assets/video/galeri3.mp4";
+import Video4 from "../../assets/video/galeri4.mp4";
+import Video5 from "../../assets/video/galeri5.mp4";
 
-const images = [Galeri1, Galeri2, Galeri3, Galeri4, Galeri5, Galeri6];
+const ytUrl1 = "https://youtu.be/QVUtMVzt9rs?si=Q6pMlud1bnrDD_qG";
+const ytUrl2 = "https://youtu.be/-tx2t3D_hkY?si=XK_KWOHSBacWDJ9y";
+const ytUrl3 = "https://youtu.be/M-OjT-t20Dw?si=9WZZTM-PP85U_iUs";
+const ytUrl4 = "https://youtu.be/WmEycXQW-lA?si=C1f8P-6AR0AdJTtj";
+
+const videos = [Video1, Video2, Video3, Video4, Video5, ytUrl1, ytUrl2, ytUrl3, ytUrl4];
 
 export const Video = () => {
   const [isCarouselOpen, setIsCarouselOpen] = useState(false);
@@ -35,13 +40,14 @@ export const Video = () => {
               >
                 X
               </button>
-              <Carousel>
-                {images.map((image, index) => (
-                  <img
+              <Carousel navigation={false}>
+                {videos.map((image, index) => (
+                  <ReactPlayer
                     key={index}
-                    src={image}
-                    alt={`Slide ${index}`}
-                    className="w-full h-full "
+                    url={image}
+                    controls={true}
+                    width="100%"
+                    height="100%"
                   />
                 ))}
               </Carousel>
@@ -49,13 +55,15 @@ export const Video = () => {
           </div>
         ) : (
           <>
-            {images.map((image, index) => (
-              <img
+            {videos.map((image, index) => (
+              <ReactPlayer
                 key={index}
-                src={image}
-                alt=""
-                className="cursor-pointer"
+                url={image}
+                controls={false}
+                width="330px"
+                height="220px"
                 onClick={openCarousel}
+                className="cursor-pointer"
               />
             ))}
           </>

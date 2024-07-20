@@ -1,5 +1,7 @@
 import Pendiri1 from "../../assets/images/pendiri1.jpg";
 import Pendiri2 from "../../assets/images/pendiri2.jpg";
+import Gambus from "../../assets/gambus.svg"
+import Marwas from "../../assets/marwas.svg"
 
 export const Pendiri = () => {
   return (
@@ -11,12 +13,13 @@ export const Pendiri = () => {
       </div>
       <div className="w-full flex flex-col px-6 lg:px-20 lg:items-center">
         <div className="w-full flex flex-col md:flex-row items-center">
-          <div className="py-5 md:py-8 px-6 md:px-10 lg:px-20">
+          <div className="relative py-5 md:py-8 px-6 md:px-10 lg:px-20">
             <img
               src={Pendiri1}
               alt="pendiri 1"
               className="w-32 md:w-56 lg:w-[310px] border-4 border-primary rounded-full"
             />
+            <img src={Gambus} alt="gambus" className="absolute w-24 rotate-[50deg] bottom-1 right-[-10px] md:w-32 md:right-8 md:top-20"/>
           </div>
           <div className="w-full h-full flex flex-col justify-center gap-5 text-center md:text-left mb-5">
             <h1 className="text-black lg:text-3xl font-mon-bold underline underline-offset-8 decoration-primary">
@@ -41,12 +44,13 @@ export const Pendiri = () => {
           </div>
         </div>
         <div className="w-full flex flex-col md:flex-row items-center">
-          <div className="py-5 md:py-8 px-6 md:px-10 lg:px-20">
+          <div className="relative py-5 md:py-8 px-6 md:px-10 lg:px-20">
             <img
               src={Pendiri2}
               alt="pendiri 2"
               className="w-32 md:w-56 lg:w-[310px] border-4 border-primary rounded-full"
             />
+            <img src={Marwas} alt="marwas" className="absolute w-12 bottom-3 md:w-20 md:bottom-7 md:right-20"/>
           </div>
           <div className="w-full h-full flex flex-col justify-center gap-5 text-center md:text-left">
             <h1 className="text-black lg:text-3xl font-mon-bold underline underline-offset-8 decoration-primary">

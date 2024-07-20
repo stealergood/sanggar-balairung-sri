@@ -1,3 +1,5 @@
+import Gambus from "../../assets/gambus.svg"
+import Marwas from "../../assets/marwas.svg"
 
 export const Latihan = () => {
   return (
@@ -5,9 +7,9 @@ export const Latihan = () => {
       <div className="w-full flex flex-col items-center font-blenda text-primary text-4xl md:text-6xl md:py-20 py-10 gap-3">
         <h1>Latihan Rutin</h1>
       </div>
-        <h2 className="text-lg md:text-xl text-center mb-7 md:mb-10 font-mon-bold">Jadwal Latihan</h2>
-      <div className="w-full h-fit px-6 lg:px-0 flex flex-col md:flex-row justify-center gap-7 pb-10">
-        <div className="md:w-3/6 lg:w-2/6 text-black bg-[#C2B4B4] p-5 lg:py-10 flex flex-col items-center gap-2 rounded-3xl">
+        <h2 className="text-lg text-black md:text-xl text-center mb-7 md:mb-10 font-mon-bold">Jadwal Latihan</h2>
+      <div className="w-full h-fit px-6 lg:px-0 flex flex-col md:flex-row justify-center gap-7 md:gap-28 pb-10">
+        <div className="relative md:w-3/6 lg:w-2/6 text-black bg-[#C2B4B4] p-5 lg:py-10 flex flex-col items-center gap-2 rounded-3xl">
           <h1 className="text-xl md:text-3xl text-center font-mon-bold">
             Kelas A
           </h1>
@@ -37,8 +39,10 @@ export const Latihan = () => {
               <p>sesi 2 02.00 - 05.30 PM</p>
             </div>
           </div>
+          <img src={Gambus} alt="" className="absolute hidden md:block w-40 rotate-[8deg] bottom-[-40px] left-[-75px]"/>
+          <img src={Marwas} alt="" className="absolute hidden md:block w-28 bottom-[-30px] right-[-30px]"/>
         </div>
-        <div className="md:w-3/6 lg:w-2/6 text-black bg-[#C2B4B4] p-5 lg:py-10 flex flex-col items-center gap-2 rounded-3xl">
+        <div className="relative md:w-3/6 lg:w-2/6 text-black bg-[#C2B4B4] p-5 lg:py-10 flex flex-col items-center gap-2 rounded-3xl">
           <h1 className="text-xl md:text-3xl text-center font-mon-bold">
             Kelas B
           </h1>
@@ -60,6 +64,8 @@ export const Latihan = () => {
               <p>02.00 - 04.30 PM</p>
             </div>
           </div>
+          <img src={Gambus} alt="" className="absolute hidden md:block w-40 rotate-[50deg] bottom-[-40px] right-[-75px]"/>
+          <img src={Marwas} alt="" className="absolute hidden md:block w-28 bottom-[-30px] left-[-30px]"/>
         </div>
       </div>
     </div>
