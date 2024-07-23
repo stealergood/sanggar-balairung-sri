@@ -1,6 +1,6 @@
-import { Navbar } from "../../components/Navbar/Navbar"
-import { Footer } from "../../components/Footer/Footer"
-import { Fasilitas as Section } from "../../components/Fasilitas/Fasilitas"
+import { Navbar } from "../../components/Navbar/Navbar";
+import { Footer } from "../../components/Footer/Footer";
+import { Fasilitas as Section } from "../../components/Fasilitas/Fasilitas";
 
 export const Fasilitas = () => {
   return (
@@ -9,5 +9,5 @@ export const Fasilitas = () => {
       <Section />
       <Footer />
     </>
-  )
-}
+  );
+};
