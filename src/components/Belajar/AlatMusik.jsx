@@ -258,7 +258,7 @@ export const AlatMusik = () => {
               <p>Bismillah</p>
               <p>Ciptaan: S. Berrein. SR</p>
             </div>
-            <div className="w-full flex flex-col md:flex-row justify-center gap-10">
+            <div className="w-full flex flex-col md:flex-row justify-center items-center gap-10">
               <div className="w-fit flex flex-col text-center gap-2 text-[12px] md:text-base">
                 <img
                   src={Nada1}

@@ -19,7 +19,7 @@ export const Pendiri = () => {
               alt="pendiri 1"
               className="w-32 md:w-56 lg:w-[310px] border-4 border-primary rounded-full"
             />
-            <img src={Gambus} alt="gambus" className="absolute w-24 rotate-[50deg] bottom-1 right-[-10px] md:w-32 md:right-8 md:top-20"/>
+            <img src={Gambus} alt="gambus" className="absolute w-24 rotate-[50deg] bottom-[1%] right-[-5%] md:right-[-3%] md:w-32 lg:w-40 lg:right-[5%] lg:top-[25%]"/>
           </div>
           <div className="w-full h-full flex flex-col justify-center gap-5 text-center md:text-left mb-5">
             <h1 className="text-black lg:text-3xl font-mon-bold underline underline-offset-8 decoration-primary">
@@ -50,7 +50,7 @@ export const Pendiri = () => {
               alt="pendiri 2"
               className="w-32 md:w-56 lg:w-[310px] border-4 border-primary rounded-full"
             />
-            <img src={Marwas} alt="marwas" className="absolute w-12 bottom-3 md:w-20 md:bottom-7 md:right-20"/>
+            <img src={Marwas} alt="marwas" className="absolute w-14 md:w-16 bottom-[10%] lg:w-24 lg:right-[20%]"/>
           </div>
           <div className="w-full h-full flex flex-col justify-center gap-5 text-center md:text-left">
             <h1 className="text-black lg:text-3xl font-mon-bold underline underline-offset-8 decoration-primary">

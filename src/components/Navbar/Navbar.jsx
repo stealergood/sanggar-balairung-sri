@@ -17,8 +17,8 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white px-6 md:px-16">
-      <div className="flex justify-between items-center py-3">
+    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white px-6 md:px-16 border-b-4" style={{ boxShadow: '0px 12px 6px rgba(0, 0, 0, 0.75)' }}>
+      <div className=" flex justify-between items-center py-3">
         <div className="flex items-center">
           <img className="w-20 md:w-[10rem]" src={Logo} alt="Logo" />
         </div>
@@ -29,8 +29,8 @@ export const Navbar = () => {
           {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </button>
       </div>
-      <div className={`md:flex md:items-center md:justify-around ${menuOpen ? 'flex' : 'hidden'} md:flex`}>
-        <ul className="flex flex-col md:flex-row text-primary text-base font-bold w-full md:w-auto">
+      <div className={`md:items-center md:justify-around ${menuOpen ? 'flex' : 'hidden'} md:flex`}>
+        <ul className="flex flex-col flex-wrap md:flex-row text-primary text-base font-bold w-full md:w-auto">
           {[
             { title: "Beranda", submenu: [{ name: "Biodata Balairung Sri", link: "/" }] },
             { title: "Belajar", submenu: [

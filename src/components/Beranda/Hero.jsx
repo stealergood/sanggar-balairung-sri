@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <div className="w-full lg:h-screen relative">
       <Slider />
-      <div className="absolute inset-6 md:inset-24 flex items-center justify-center w-[85%]">
+      <div className="absolute top-0 inset-6 md:inset-24 flex items-center justify-center w-[85%]">
         <div className="w-fit flex flex-col items-center justify-center lg:p-0 md:mb-0">
           <Logo className="w-20 h-20 lg:h-fit lg:w-[186px]" />
           <h1 className="text-white text-xl md:text-6xl lg:text-8xl font-blenda text-center">

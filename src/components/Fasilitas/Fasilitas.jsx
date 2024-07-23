@@ -10,11 +10,11 @@ export const Fasilitas = () => {
         <h1>Fasilitas Sanggar</h1>
       </div>
       <div className='w-full px-6 lg:px-20 flex flex-col md:flex-row justify-center gap-7 md:gap-20'>
-        <div className='md:w-3/6 lg:w-3/6 pb-16 md:pb-0 bg-[#C2B4B4] p-6 md:p-14 lg:py-10 flex flex-col items-center gap-5 rounded-badge'>
-          <div className='relative'>
-            <img src={Fasilitas2} alt="" />
-            <img src={Gambus} alt="gambus" className="absolute w-24 rotate-[10deg] md:rotate-[60deg] left-[-50px] top-24 md:w-36 md:left-[-50px] md:top-[-80px]"/>
-            <img src={Marwas} alt="marwas" className="absolute w-12 top-[-10px] right-[-10px] md:w-20 md:top-[-20px] md:right-[-30px]"/>
+        <div className='md:w-3/6 lg:w-3/6 pb-16  bg-[#C2B4B4] p-6 md:p-14 lg:py-10 flex flex-col items-center gap-5 rounded-badge'>
+          <div className='relative '>
+            <img src={Fasilitas2} alt=""/>
+            <img src={Gambus} alt="gambus" className=" absolute w-24 rotate-[10deg] md:rotate-[60deg] left-[-16%] top-[50%] md:w-32 md:left-[-23%] lg:left-[-13%] md:top-[-50%] lg:top-[-30%]"/>
+            <img src={Marwas} alt="marwas" className=" absolute w-16 top-[-10%] right-[-10%] md:w-20 md:top-[-20%] lg:top-[-15%] md:right-[-18%] lg:right-[-10%]"/>
           </div>
           <h1 className='font-blenda text-primary text-2xl md:text-3xl text-center'>Fasilitas Luar</h1>
           <ul className='text-black list-disc text-[12px] md:text-base'>
@@ -22,11 +22,11 @@ export const Fasilitas = () => {
             <li>Lapangan Terbuka</li>
           </ul>
         </div>
-        <div className='md:w-3/6 lg:w-3/6 pb-16 md:pb-0 bg-[#C2B4B4] p-6 md:p-16 lg:py-10 flex flex-col flex-wrap items-center  gap-5 rounded-badge'>
+        <div className='md:w-3/6 lg:w-3/6 pb-16  bg-[#C2B4B4] p-6 md:p-14 lg:py-10 flex flex-col flex-wrap items-center  gap-5 rounded-badge'>
           <div className='relative'>
             <img src={Fasilitas1} alt="" />
-            <img src={Gambus} alt="gambus" className="absolute w-24 rotate-[50deg] md:rotate-[-4deg] right-[-50px] top-24 md:w-36 md:right-[-50px] md:top-[-80px]"/>
-            <img src={Marwas} alt="marwas" className="absolute w-12 top-[-10px] left-[-10px] md:w-20 md:top-[-20px] md:left-[-30px]"/>
+            <img src={Gambus} alt="gambus" className="absolute w-24 rotate-[50deg] md:rotate-[-4deg] right-[-16%] top-[50%] md:w-32 md:right-[-23%] lg:right-[-13%] md:top-[-50%] lg:top-[-30%]"/>
+            <img src={Marwas} alt="marwas" className="absolute w-16 top-[-10%] left-[-10%] md:w-20 md:top-[-20%] lg:top-[-15%] md:left-[-18%] lg:left-[-10%]"/>
           </div>
           <h1 className='font-blenda text-primary text-2xl md:text-3xl text-center'>Fasilitas Dalam</h1>
           <ul className='text-black list-disc text-[12px] md:text-base'>

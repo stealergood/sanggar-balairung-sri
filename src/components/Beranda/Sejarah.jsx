@@ -5,7 +5,7 @@ import Marwas from "../../assets/marwas.svg"
 export const Sejarah = () => {
   return (
     <div className="w-full h-[800px] md:h-[1024px] flex flex-col bg-motif-android1 md:bg-motif bg-cover bg-center">
-      <div className="w-full flex justify-center pt-5 md:py-20 text-4xl md:text-6xl">
+      <div className="w-full flex justify-center py-5 md:py-20 text-4xl md:text-6xl">
         <h1 className="font-blenda text-primary">Balairung Sri</h1>
       </div>
       <div className="w-full px-6 lg:px-20 flex flex-col-reverse gap-10 lg:gap-0 lg:flex-row justify-around py-10">
@@ -24,12 +24,14 @@ export const Sejarah = () => {
             bermanfaat dalam konservasi budaya di Provinsi Siak.
           </p>
         </div>
-        <div className="w-full lg:w-[45%] relative flex justify-center">
-          <img src={SejarahPict} alt="foto sejarah" className="rounded-xl w-5/6 md:w-full" />
-          <img src={Gambus} alt="gambus" className="absolute w-28 top-[-50px] right-[-10px] md:w-60 md:right-[-70px] md:top-[-150px]"/>
-          <img src={Gambus} alt="gambus" className="absolute block md:hidden rotate-[55deg] w-28 top-[-50px] left-[-10px]"/>
-          <img src={Marwas} alt="marwas" className="absolute w-12 md:w-28 top-[-20px] right-24 md:top-[-50px] md:right-36"/>
-          <img src={Marwas} alt="marwas" className="absolute block md:hidden w-12 top-[-20px] left-24"/>
+        <div className="w-full lg:w-[45%] flex justify-center items-center">
+          <div className="w-5/6 lg:w-full flex relative justify-center">
+            <img src={SejarahPict} alt="foto sejarah" className="rounded-xl w-full h-full" />
+            <img src={Gambus} alt="gambus" className=" absolute w-24 sm:w-32 top-[-25%] right-[-10%] md:w-52 md:right-[-10%] lg:right-[-15%] md:top-[-25%] lg:top-[-35%]"/>
+            <img src={Gambus} alt="gambus" className=" absolute block md:hidden rotate-[60deg] w-24 sm:w-32 top-[-25%] left-[-10%]"/>
+            <img src={Marwas} alt="marwas" className=" absolute w-12 sm:w-20 md:w-28 top-[-10%] right-[28%] md:top-[-13%] md:right-[30%]"/>
+            <img src={Marwas} alt="marwas" className=" absolute block md:hidden w-12 sm:w-20 top-[-10%] left-[28%]"/>
+          </div>
         </div>
       </div>
     </div>
