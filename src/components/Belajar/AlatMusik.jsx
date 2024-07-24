@@ -12,7 +12,7 @@ import Nada2 from "../../assets/images/musik/bismillah2.jpg";
 
 export const AlatMusik = () => {
   return (
-    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android3 md:bg-motif3 bg-cover bg-center overflow-y-scroll">
+    <div className="w-full h-[800px] md:h-[1024px] overflow-y-scroll">
       <div className="w-full flex justify-center py-10 md:py-20">
         <h1 className="font-blenda text-primary text-4xl lg:text-6xl">
           Alat Musik

@@ -2,7 +2,7 @@ import VisiMisiPicture from "../../assets/images/visimisi.jpeg";
 
 export const VisiMisi = () => {
   return (
-    <div className="w-full h-[1264px] md:h-[1200px] bg-motif-android4 md:bg-motif4 bg-cover bg-center py-10 md:py-0">
+    <div className="w-full h-[1264px] md:h-[1200px] py-10 md:py-0">
       <div className="w-full flex justify-center pt-10 pb-10 md:py-20 md:pt-48">
         <h1 className="font-blenda text-primary text-4xl lg:text-6xl">Visi & Misi</h1>
       </div>

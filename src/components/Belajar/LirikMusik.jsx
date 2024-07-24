@@ -1,6 +1,6 @@
 export const LirikMusik = () => {
   return (
-    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android1 md:bg-motif bg-cover bg-center  overflow-y-scroll">
+    <div className="w-full h-[800px] md:h-[1024px] overflow-y-scroll">
       <div className="w-full flex justify-center text-4xl md:text-6xl text-primary font-blenda py-10 md:py-20">
         <h1>Lirik Lagu</h1>
       </div>

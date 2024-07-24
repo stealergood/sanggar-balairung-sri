@@ -3,7 +3,7 @@ import Marwas from "../../assets/marwas.svg"
 
 export const Latihan = () => {
   return (
-    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android1 md:bg-motif bg-cover bg-center overflow-y-scroll">
+    <div className="w-full h-[800px] md:h-[1024px] overflow-y-scroll">
       <div className="w-full flex flex-col items-center font-blenda text-primary text-4xl md:text-6xl md:py-20 py-10 gap-3">
         <h1>Latihan Rutin</h1>
       </div>

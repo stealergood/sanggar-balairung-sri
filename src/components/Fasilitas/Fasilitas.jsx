@@ -5,7 +5,7 @@ import Marwas from "../../assets/marwas.svg"
 
 export const Fasilitas = () => {
   return (
-    <div className='w-full min-h-[800px] md:h-[1024px] bg-motif-android1 md:bg-motif bg-cover bg-center pb-10'>
+    <div className='w-full min-h-[800px] md:h-[1024px] pb-10'>
       <div className='w-full flex justify-center text-center font-blenda text-primary text-4xl md:text-6xl py-10 md:py-20'>
         <h1>Fasilitas Sanggar</h1>
       </div>

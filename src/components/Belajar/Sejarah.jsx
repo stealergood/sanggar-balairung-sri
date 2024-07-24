@@ -1,7 +1,7 @@
 
 export const Sejarah = () => {
   return (
-    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android1 md:bg-motif bg-cover bg-center overflow-y-scroll">
+    <div className="w-full h-[800px] md:h-[1024px] overflow-y-scroll">
       <div className="w-full flex justify-center py-10 md:py-20 text-wrap md:px-0">
         <h1 className="block md:hidden font-blenda text-primary text-4xl lg:text-6xl text-center">
           Sejarah Tari <br /> Zapin Siak

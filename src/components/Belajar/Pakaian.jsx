@@ -3,8 +3,8 @@ import Pakaian7 from "../../assets/images/pakaian/pakaian7.jpeg";
 
 export const Pakaian = () => {
   return (
-    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center overflow-y-scroll">
-      <div className="w-full flex justify-center pt-16 md:pt-0 py-10 md:py-20">
+    <div className="w-full h-[800px] md:h-[1024px] overflow-y-scroll">
+      <div className="w-full flex justify-center pt-16 py-10 md:py-20">
         <h1 className="font-blenda text-primary text-center text-4xl md:text-6xl">Pakaian</h1>
       </div>
       <div className="w-full px-6 lg:px-20 pb-10 text-[12px] md:text-base">

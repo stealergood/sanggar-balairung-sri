@@ -5,7 +5,7 @@ import Penghargaan4 from '../../assets/images/penghargaan/penghargaan4.png'
 
 export const Penghargaan = () => {
   return (
-    <div className="w-full bg-motif bg-cover bg-center md:px-10 pb-16 flex flex-col items-center">
+    <div className="w-full md:px-10 pb-16 flex flex-col items-center">
       <div className="w-full flex justify-center font-blenda text-primary text-4xl md:text-6xl py-10">
         <h1>Penghargaan</h1>
       </div>

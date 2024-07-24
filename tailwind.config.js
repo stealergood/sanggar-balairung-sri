@@ -15,6 +15,8 @@ module.exports = withMT({
         primary: "#491D21"
       },
       backgroundImage: {
+        "gradient1" : "url('/src/assets/bg2-background.png')",
+        "gradient2" : "url('/src/assets/bg3-background.png')",
         "motif": "url('/src/assets/images/bg.png')",
         "motif2": "url('/src/assets/images/bg2.png')",
         "motif3": "url('/src/assets/images/bg3.png')",

@@ -25,7 +25,7 @@ import Gerakan15 from "../../assets/images/gerakan2/Gerakan15.png";
 
 export const Gerakan = () => {
   return (
-    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center overflow-y-scroll">
+    <div className="w-full h-[800px] md:h-[1024px] overflow-y-scroll">
       <div className="w-full px-6 flex text-wrap text-center justify-center text-primary font-blenda text-4xl md:text-6xl py-10 md:py-20">
         <h1>Gerakan Tari Zapin</h1>
       </div>

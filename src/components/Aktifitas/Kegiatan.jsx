@@ -5,7 +5,7 @@ import Marwas from "../../assets/marwas.svg"
 
 export const Kegiatan = () => {
   return (
-    <div className='w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center px-6 md:px-10 pb-20 overflow-y-scroll'>
+    <div className='w-full h-[800px] md:h-[1024px] px-6 md:px-10 pb-20 overflow-y-scroll'>
       <div>
         <div className='w-full flex justify-center font-blenda text-primary text-4xl md:text-6xl py-16 md:py-20'>
           <h1>Kegiatan</h1>

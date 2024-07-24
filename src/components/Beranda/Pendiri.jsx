@@ -5,7 +5,7 @@ import Marwas from "../../assets/marwas.svg"
 
 export const Pendiri = () => {
   return (
-    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 bg-cover bg-center py-16 md:py-52">
+    <div className="w-full h-[800px] md:h-[1024px] py-16 md:py-52">
       <div className="w-full px-6  flex justify-center">
         <h1 className="text-primary text-4xl md:text-4xl lg:text-6xl font-blenda">
           Pendiri

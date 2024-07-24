@@ -4,7 +4,7 @@ import Marwas from "../../assets/marwas.svg"
 
 export const Sejarah = () => {
   return (
-    <div className="w-full h-[800px] md:h-[1024px] flex flex-col bg-motif-android1 md:bg-motif bg-cover bg-center">
+    <div className="w-full h-[800px] md:h-[1024px] flex flex-col">
       <div className="w-full flex justify-center py-5 md:py-20 text-4xl md:text-6xl">
         <h1 className="font-blenda text-primary">Balairung Sri</h1>
       </div>

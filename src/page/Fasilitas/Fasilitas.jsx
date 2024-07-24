@@ -1,13 +1,16 @@
 import { Navbar } from "../../components/Navbar/Navbar";
 import { Footer } from "../../components/Footer/Footer";
 import { Fasilitas as Section } from "../../components/Fasilitas/Fasilitas";
+import { Background1 } from "../../components/UI/Background/Background1/Background1";
 
 export const Fasilitas = () => {
   return (
-    <>
+    <div className="w-full h-fit bg-white">
       <Navbar />
-      <Section />
+      <Background1>
+        <Section />
+      </Background1>
       <Footer />
-    </>
+    </div>
   );
 };

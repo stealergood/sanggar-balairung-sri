@@ -24,7 +24,7 @@ export const Tarian = () => {
   };
 
   return (
-    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android2 md:bg-motif2 px-6 md:px-20 bg-cover bg-center pb-10 overflow-y-scroll">
+    <div className="w-full h-[800px] md:h-[1024px] px-6 md:px-20 pb-10 overflow-y-scroll">
       <div className="w-full flex justify-center font-blenda text-primary text-4xl md:text-6xl py-10 md:py-20">
         <h1>Tarian</h1>
       </div>

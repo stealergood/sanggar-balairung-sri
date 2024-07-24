@@ -35,7 +35,7 @@ export const Foto = () => {
   };
 
   return (
-    <div className="w-full h-[800px] md:h-[1024px] bg-motif-android1 md:bg-motif bg-cover bg-center px-5 md:px-0 lg:px-10 pb-16 overflow-y-scroll">
+    <div className="w-full h-[800px] md:h-[1024px] px-5 md:px-0 lg:px-10 pb-16 overflow-y-scroll">
       <div className="w-full flex justify-center text-center py-20 font-blenda text-primary text-5xl md:text-6xl">
         <h1>Galery - Foto</h1>
       </div>

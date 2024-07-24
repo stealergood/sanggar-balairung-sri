@@ -17,7 +17,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white px-6 md:px-16 border-b-4 border-primary">
+    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white px-6 md:px-16 shadow-2xl">
       <div className=" flex justify-between items-center py-3">
         <div className="flex items-center">
           <img className="w-20 md:w-[10rem]" src={Logo} alt="Logo" />
@@ -69,7 +69,7 @@ export const Navbar = () => {
                     {menu.title}
                     <IoIosArrowDown className="inline" />
                   </button>
-                  <ul className={`md:absolute ${submenuOpen[index] ? 'block' : 'hidden'} md:group-hover:block md:bg-white md:shadow rounded w-44 z-10 `}>
+                  <ul className={`md:absolute ${submenuOpen[index] ? 'block' : 'hidden'} md:group-hover:block md:bg-white md:shadow rounded w-[11rem] z-50 `}>
                     {menu.submenu.map((item, subIndex) => (
                       <li key={subIndex} className="py-1 px-3 hover:bg-gray-200">
                         <a onClick={() => handleItemClick(subIndex)} href={item.link} className={`hover:text-[#EBD75B] ${clickedItem === subIndex ? 'text-[#EBD75B]' : ''}`}>{item.name}</a>
