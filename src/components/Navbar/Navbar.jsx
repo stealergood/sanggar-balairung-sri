@@ -69,7 +69,7 @@ export const Navbar = () => {
                     {menu.title}
                     <IoIosArrowDown className="inline" />
                   </button>
-                  <ul className={`md:absolute ${submenuOpen[index] ? 'block' : 'hidden'} md:group-hover:block md:bg-white md:shadow rounded w-[11rem] z-50 `}>
+                  <ul className={`md:absolute ${submenuOpen[index] ? 'block' : 'hidden'} md:group-hover:block md:bg-white md:shadow rounded w-48 z-50 `}>
                     {menu.submenu.map((item, subIndex) => (
                       <li key={subIndex} className="py-1 px-3 hover:bg-gray-200">
                         <a onClick={() => handleItemClick(subIndex)} href={item.link} className={`hover:text-[#EBD75B] ${clickedItem === subIndex ? 'text-[#EBD75B]' : ''}`}>{item.name}</a>
