@@ -64,7 +64,7 @@ export const Tarian = () => {
                   <ReactPlayer
                     key={index}
                     url={videos}
-                    // controls={true}
+                    controls={false}
                     width="320px"
                     height="100%"
                     onClick={openCarousel}

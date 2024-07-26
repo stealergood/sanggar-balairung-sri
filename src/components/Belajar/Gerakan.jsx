@@ -198,13 +198,17 @@ export const Gerakan = () => {
           <li>
             Langkah sut Langkah sut <br />
             boleh dilakukan sebagai langkah sut depan atau langkah sut mundur.
-            <img src={Kaki8} alt="" />
+            <div className="w-fit mt-5 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 p-5">
+              <img src={Kaki8} alt="" />
+            </div>
           </li>
           <li>
             Langkah menyambar <br />
             Langkah menyambar dimulai pada hitungan 4 dan hitungan 8. Setiap
             kaki yang sedang di injit itu akan melakukan langkah menyambar.
-            <img src={Kaki9} alt="" />
+            <div className="w-fit mt-5 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] bg-yellow-100 p-5">
+              <img src={Kaki9} alt="" />
+            </div>
           </li>
           <li>
             Langkah siku keluang <br />

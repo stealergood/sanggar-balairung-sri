@@ -1,4 +1,4 @@
-import Pakaian1 from "../../assets/images/pakaian/pakaian1.png";
+import Pakaian1 from "../../assets/images/pakaian/pakaian.jpg";
 import Pakaian7 from "../../assets/images/pakaian/pakaian7.jpeg";
 
 export const Pakaian = () => {
@@ -34,11 +34,11 @@ export const Pakaian = () => {
         </ul>
         <div className="w-full flex flex-wrap gap-16 justify-center pt-20">
           <div className="w-fit h-fit flex flex-col gap-2 text-center text-black">
-            <img src={Pakaian7} alt="pakaian1" className="w-64 md:w-80 rounded-[2rem] shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)]"/>
+            <img src={Pakaian7} alt="pakaian1" className="w-64 md:w-72 h-[426px] rounded-[2rem] shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)]"/>
             <span>Baju Melayu Cekak Musang</span>
           </div>
           <div className="w-fit h-fit flex flex-col gap-2 text-center text-black">
-            <img src={Pakaian1} alt="pakaian1" className="w-64 md:w-80 h-[426px] rounded-[2rem] shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)]"/>
+            <img src={Pakaian1} alt="pakaian1" className="w-64 md:w-72 h-[426px] rounded-[2rem] shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)]"/>
             <span>Baju Kurung</span>
           </div>
         </div>
