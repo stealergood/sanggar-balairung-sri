@@ -16,10 +16,10 @@ export const Beranda = () => {
       <Background1 className="bg-white">
         <Sejarah />
       </Background1>
-      <Background2 className="bg-gradient1">
+      <Background2 className="bg-gradient1 bg-cover">
         <Pendiri />
       </Background2>
-      <Background3 className="bg-gradient2">
+      <Background3 className="bg-gradient2 bg-cover">
         <VisiMisi />
       </Background3>
       <Footer />
