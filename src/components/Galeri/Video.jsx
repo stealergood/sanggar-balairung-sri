@@ -54,7 +54,7 @@ export const Video = () => {
               >
                 <RxCross2 size={30} />
               </button>
-              <Carousel navigation={false} prevArrow={false} nextArrow={false} className="">
+              <Carousel navigation={false} prevArrow={false} nextArrow={false}>
                 <ReactPlayer
                   url={videos[currentVideo]}
                   controls={true}

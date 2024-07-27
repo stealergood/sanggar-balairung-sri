@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Carousel } from "@material-tailwind/react";
+import { RxCross2 } from "react-icons/rx";
 import Galeri1 from "../../assets/images/galeri-foto/galeri1.jpeg";
 import Galeri2 from "../../assets/images/galeri-foto/galeri2.jpeg";
 import Galeri3 from "../../assets/images/galeri-foto/galeri3.jpeg";
@@ -25,9 +26,25 @@ const images = [Galeri1, Galeri2, Galeri3, Galeri4, Galeri5, Galeri6, Galeri7, G
 
 export const Foto = () => {
   const [isCarouselOpen, setIsCarouselOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    handleResize(); // Check initial size
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const openCarousel = () => {
-    setIsCarouselOpen(true);
+    if (!isMobile) {
+      setIsCarouselOpen(true);
+    }
   };
 
   const closeCarousel = () => {
@@ -45,9 +62,9 @@ export const Foto = () => {
             <div className="relative w-full max-w-3xl h-full">
               <button
                 onClick={closeCarousel}
-                className="absolute top-5 right-5 text-white text-2xl z-10"
+                className="absolute top-0 right-0 bg-primary rounded-full text-[#EBD75B] text-2xl z-10"
               >
-                X
+                <RxCross2 size={30} />
               </button>
               <Carousel>
                 {images.map((image, index) => (
@@ -68,7 +85,7 @@ export const Foto = () => {
                 key={index}
                 src={image}
                 alt=""
-                className="cursor-pointer w-[330px] h-[220px] rounded-3xl"
+                className="cursor-pointer w-[330px] md:h-[220px] h-[200px]  rounded-3xl"
                 onClick={openCarousel}
               />
             ))}
