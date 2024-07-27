@@ -17,7 +17,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white px-6 md:px-16 shadow-2xl">
+    <div className="w-full flex flex-col md:flex-row md:justify-between bg-white px-6 md:px-16 shadow-[0px_10px_5px_0px_rgba(0,0,0,0.75)]">
       <div className=" flex justify-between items-center py-3">
         <div className="flex items-center">
           <img className="w-20 md:w-[10rem]" src={Logo} alt="Logo" />
@@ -61,7 +61,7 @@ export const Navbar = () => {
               {menu.submenu ? (
                 <>
                   <button 
-                    className={`flex gap-1 items-center py-3 md:py-0 md:px-6 hover:text-[#EBD75B] ${menu.title === 'Beranda' ? 'py-0' : ''} ${menu.title === 'Informasi' ? 'py-0' : ''}`}
+                    className={`flex gap-1 items-center py-3 md:py-0 md:px-6 hover:text-[#EBD75B] ${menu.title === 'Beranda' ? 'pb-0' : ''} ${menu.title === 'Informasi' ? 'pt-0' : ''}`}
                     onClick={() => {
                       toggleSubmenu(index);
                     }}
