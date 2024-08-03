@@ -37,7 +37,7 @@ export const Tarian = () => {
       <div className="w-full flex justify-center text-black text-[12px] md:text-base mt-10">
         <div className="w-full bg-transparent md:py-16 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] rounded-2xl p-5">
           {/* Carousel for larger screens */}
-          <div className={`hidden md:block`}>
+          <div className={`hidden lg:block`}>
             {isCarouselOpen && currentVideo !== null ? (
               <div className="relative w-full h-[424px] flex justify-center items-center">
                 <div className="relative w-fit max-w-3xl h-full">
