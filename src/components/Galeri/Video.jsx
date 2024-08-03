@@ -46,11 +46,11 @@ export const Video = () => {
       </div>
       <div className="w-full flex flex-wrap justify-center gap-10">
         {isCarouselOpen && currentVideo !== null ? (
-          <div className="relative w-full h-[500px] flex justify-center items-center">
-            <div className="relative w-full max-w-3xl h-full">
+          <div className="relative w-fit h-[424px] flex justify-center items-center">
+            <div className="relative w-full max-w-3xl h-full"> 
               <button
                 onClick={closeCarousel}
-                className="absolute top-0 right-0 bg-primary rounded-full text-[#EBD75B] text-2xl z-10"
+                className="absolute top-2 right-2 bg-primary rounded-full text-[#EBD75B] text-2xl z-10"
               >
                 <RxCross2 size={30} />
               </button>

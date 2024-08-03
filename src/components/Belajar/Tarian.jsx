@@ -37,13 +37,13 @@ export const Tarian = () => {
       <div className="w-full flex justify-center text-black text-[12px] md:text-base mt-10">
         <div className="w-full bg-transparent md:py-16 shadow-[-1px_-1px_20px_9px_rgba(0,0,0,0.54)] rounded-2xl p-5">
           {/* Carousel for larger screens */}
-          <div className="hidden md:block">
+          <div className={`hidden md:block`}>
             {isCarouselOpen && currentVideo !== null ? (
-              <div className="relative w-full h-[500px] flex justify-center items-center">
-                <div className="relative w-full max-w-3xl h-full">
+              <div className="relative w-full h-[424px] flex justify-center items-center">
+                <div className="relative w-fit max-w-3xl h-full">
                   <button
                     onClick={closeCarousel}
-                    className="absolute top-0 right-0 bg-primary rounded-full text-[#EBD75B] text-2xl z-10"
+                    className="absolute top-2 right-2 bg-primary rounded-full text-[#EBD75B] text-2xl z-10"
                   >
                     <RxCross2 size={30} />
                   </button>
