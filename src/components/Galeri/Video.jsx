@@ -46,7 +46,7 @@ export const Video = () => {
       </div>
       <div className="w-full flex flex-wrap justify-center gap-10">
         {isCarouselOpen && currentVideo !== null ? (
-          <div className="relative w-fit h-[424px] flex justify-center items-center">
+          <div className="relative w-fit h-fit flex justify-center items-center">
             <div className="relative w-full max-w-3xl h-full"> 
               <button
                 onClick={closeCarousel}

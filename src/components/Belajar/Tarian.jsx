@@ -74,7 +74,7 @@ export const Tarian = () => {
           </div>
 
           {/* Static images for smaller screens */}
-          <div className="block md:hidden">
+          <div className="block lg:hidden">
             <div className="flex flex-wrap flex-col w-full justify-center gap-10">
               {videos.map((video, index) => (
                 <ReactPlayer
